@@ -1,0 +1,56 @@
+syntax = "proto3";
+
+option java_package = "com.haberdashervcs.common.protobuf";
+option java_outer_classname = "ServerProto";
+option java_multiple_files = false;
+
+
+message MergeResult {
+
+    enum ResultType {
+        SUCCESSFUL = 0;
+        FAILED = 1;
+    }
+
+    ResultType type = 1;
+    string message = 2;
+    int64 newCommitIdOnMain = 3;
+}
+
+
+message ServerCheckoutSpec {
+    repeated string allFileIdsFromServer = 1;
+}
+
+message ClientCheckoutSpec {
+    repeated string fileIdsClientNeeds = 1;
+}
+
+
+message PushQuery {
+    string org = 1;
+    string repo = 2;
+    string branch = 3;
+    int64 baseCommitId = 4;
+    int64 newHeadCommitId = 5;
+    repeated string fileIdsClientWantsToPush = 6;
+}
+
+message PushQueryResponse {
+    enum ResponseType {
+        OK = 0;
+        ERROR = 1;
+    }
+
+    ResponseType responseType = 1;
+    string message = 2;
+    repeated string fileIdsServerAlreadyHas = 3;
+}
+
+message PushSpec {
+    string org = 1;
+    string repo = 2;
+    string branch = 3;
+    int64 baseCommitId = 4;
+    int64 newHeadCommitId = 5;
+}

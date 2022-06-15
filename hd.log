@@ -1,0 +1,24 @@
+2022-03-14 18:25:05 [HBaseOperations] INFO Putting new orgsub OrgSubscription{org=haberdasher, state=FREE_TRIAL, users=[com.haberdashervcs.common.objects.user.OrgSubscription$OrgUserEntry@225a3151, com.haberdashervcs.common.objects.user.OrgSubscription$OrgUserEntry@2409e2b6], billingPlan=FREE_TRIAL, billingState=type: "new"
+fields {
+  key: "freeTrialStartDate"
+  value: "1647282305311"
+}
+}
+2022-03-14 18:25:05 [HBaseOperations] INFO Putting new orgsub OrgSubscription{org=huge1, state=FREE_TRIAL, users=[com.haberdashervcs.common.objects.user.OrgSubscription$OrgUserEntry@61f2f21c], billingPlan=FREE_TRIAL, billingState=type: "new"
+fields {
+  key: "freeTrialStartDate"
+  value: "1647282305394"
+}
+}
+2022-03-14 18:25:05 [HBaseOperations] INFO Putting new orgsub OrgSubscription{org=rebase1, state=FREE_TRIAL, users=[com.haberdashervcs.common.objects.user.OrgSubscription$OrgUserEntry@fbd1bc18], billingPlan=FREE_TRIAL, billingState=type: "new"
+fields {
+  key: "freeTrialStartDate"
+  value: "1647282305399"
+}
+}
+2022-03-14 18:25:05 [HBaseOperations] INFO Putting new orgsub OrgSubscription{org=rebase2, state=FREE_TRIAL, users=[com.haberdashervcs.common.objects.user.OrgSubscription$OrgUserEntry@f9fcee5d], billingPlan=FREE_TRIAL, billingState=type: "new"
+fields {
+  key: "freeTrialStartDate"
+  value: "1647282305404"
+}
+}

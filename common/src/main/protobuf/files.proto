@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option java_package = "com.haberdashervcs.common.protobuf";
+option java_outer_classname = "FilesProto";
+option java_multiple_files = false;
+
+
+message FileEntry {
+
+    enum ContentsType {
+        FULL = 0;
+        // Diffs parsed by GitDeltaDiffer
+        DIFF_GIT = 1;
+        // Binary diff with bsdiff
+        DIFF_BS = 2;
+    }
+
+    enum StorageType {
+        DATASTORE = 0;
+        LARGE_FILE_STORE = 1;
+    }
+
+    string id = 1;
+    // TODO?: For diffs, should we have code parse this as a proto message of one kind or another, depending on the diff
+    //     type? That way, we can have different diff settings or metadata along with the diff contents.
+    bytes contents = 2;
+    ContentsType contentsType = 3;
+    StorageType storageType = 4;
+    string diffBaseEntryId = 5;
+}

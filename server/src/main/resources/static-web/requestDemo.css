@@ -1,0 +1,77 @@
+h1#heading {
+    margin: 1.5em auto 1em auto;
+}
+
+
+/* Robot */
+
+div#robotDiv {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+img#robotImg {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+
+
+/* Form and copy */
+
+div#wholeDiv {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin: 1em auto 1em auto;
+}
+
+@media only screen and (max-width: 480px) {
+    div#wholeDiv {
+        flex-direction: column;
+    }
+}
+
+
+div#copyDiv {
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 2em;
+}
+
+div#demoFormContainer {
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+    padding: 2em;
+}
+
+form#demoForm p.fieldLabel {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+form#demoForm p.textField {
+}
+
+form#demoForm p.textField input {
+    width: 80%;
+    font-size: 1.1em;
+}
+
+form#demoForm p.textField textarea {
+    width: 80%;
+    font-size: 1.1em;
+}
+
+form#demoForm p.fieldMessage {
+}
+
+input.buttonLink {
+    width: 200px;
+}

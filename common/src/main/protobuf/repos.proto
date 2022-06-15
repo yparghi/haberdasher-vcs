@@ -1,0 +1,55 @@
+syntax = "proto3";
+
+option java_package = "com.haberdashervcs.common.protobuf";
+option java_outer_classname = "ReposProto";
+option java_multiple_files = false;
+
+
+message RepoEntry {
+    string org = 1;
+    string repoName = 2;
+}
+
+
+message OrgUserEntry {
+
+    enum State {
+        ACTIVE = 0;
+        REMOVED = 1;
+    }
+
+    string org = 1;
+    string userId = 2;
+    State state = 3;
+}
+
+
+message BillingState {
+    string type = 1;  // e.g. stripe, paypal
+    map<string, string> fields = 2;  // Custom, type-specific data like a customer ID or such
+}
+
+
+message OrgSubscription {
+
+    enum State {
+        FREE_TRIAL = 0;
+        PAID = 1;
+        GRACE_PERIOD = 2;
+        // IDEA: Do I need a distinction like "lapsed" vs. "cancelled"?
+        ENDED = 3;
+    }
+
+    enum BillingPlan {
+        FREE_TRIAL_PLAN = 0;
+        SMALL = 1;
+        MEDIUM = 2;
+        LARGE = 3;
+    }
+
+    string org = 1;
+    State state = 2;
+    repeated OrgUserEntry users = 3;
+    BillingPlan billingPlan = 4;
+    BillingState billingState = 5;
+}

@@ -1,0 +1,534 @@
+/* Common */
+
+img.sectionSeparator {
+    margin: 4em auto 4em auto;
+    display: block;
+}
+
+p.blurbText {
+    font-size: 1em;
+    color: #333333;
+    margin: 1.0em auto 2.5em auto;
+    max-width: 500px;
+}
+
+p.blurbTextLight {
+    color: var(--dark-bg-text-color);
+}
+
+
+div.concaveTop {
+    position: relative;
+    overflow: hidden;
+    height: 120px;
+    background: var(--dark-bg-color);
+}
+
+div.concaveTop::before {
+    background: var(--light-bg-color);
+    border-radius: 100%;
+    position: absolute;
+    height: 150px;
+    content: '';
+    right: -20%;
+    left: -20%;
+
+    top: -50px;  /* The important one: the vertical offset to "carve out" from div.concaveTop. */
+}
+
+
+div.convexBottom {
+    position: relative;
+    overflow: hidden;
+    height: 120px;
+    background: var(--light-bg-color);
+}
+
+div.convexBottom::after {
+    background: var(--dark-bg-color);
+    border-radius: 100%;
+    position: absolute;
+    height: 150px;
+    content: '';
+    right: -20%;
+    left: -20%;
+    bottom: 0;
+}
+
+
+/* Head section */
+
+div#headDiv {
+    background-color: var(--light-bg-color);
+    color: var(--light-bg-text-color);
+}
+
+@media only screen and (max-width: 480px) {
+    div#headDiv {
+        min-height: 300px;
+        flex-direction: column;
+    }
+}
+
+div#headDivInner {
+    width: 90%;
+    max-width: 1000px;
+    min-height: 325px;
+
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div#headTextDiv {
+    text-align: left;
+
+    flex-grow: 1;
+    flex-shrink: 1;  /* Lets text wrap. */
+
+    padding: 1.0em;
+}
+
+h1#headTitle {
+    font-family: "Book Antiqua", serif;
+    font-size: 4em;
+}
+
+p#headBlurb {
+    font-size: 2.0em;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 480px) {
+    h1#headTitle {
+        font-size: 3em;
+    }
+
+    div#headDivInner {
+        flex-direction: column;
+    }
+}
+
+
+
+/* TEMP! Terminal. TODO figure this out w.r.t. /requestDemo... */
+
+div#terminalDiv {
+    padding: 10px;
+    margin: auto;
+
+    flex-basis: 450px;
+    min-width: 450px;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+div#terminalDiv .fakeMenu {
+    width: 100%;
+    box-sizing: border-box;
+    height: 25px;
+    /*background-color: #ffffff;*/
+    background-color: #87ceeb;
+    margin: 0 auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+    border-color: #87ceeb;
+    border-width: 1px;
+    border-style: solid;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div#terminalDiv .fakeButtons {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: inline-block;
+
+    margin-left: 6px;
+}
+
+div#terminalDiv .fakeClose {
+    background-color: #ff3b47;
+    border-color: #9d252b;
+}
+
+div#terminalDiv .fakeMinimize {
+  background-color: #ffc100;
+  border-color: #9d802c;
+}
+
+div#terminalDiv .fakeZoom {
+  background-color: #00d742;
+  border-color: #049931;
+}
+
+
+div#terminalDiv .fakeScreen {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    border-color: #87ceeb;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+}
+
+div#terminalDiv p {
+    text-align: left;
+    font-size: 1.6em;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    color: #333333;
+}
+
+div#terminalDiv .line1 {
+    animation-name: typing;
+    animation-duration: 1.0s;
+    animation-timing-function: steps(20);
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+div#terminalDiv .line2 {
+    animation-name: typing;
+    animation-duration: 1.0s;
+    animation-timing-function: steps(20);
+    animation-delay: 2.0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+div#terminalDiv .line3 {
+    animation-name: typing;
+    animation-duration: 1.0s;
+    animation-timing-function: steps(20);
+    animation-delay: 3.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+div#terminalDiv .line4 {
+    animation-name: typing;
+    animation-duration: 1.0s;
+    animation-timing-function: steps(20);
+    animation-delay: 5.0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+
+@media only screen and (max-width: 480px) {
+    div#terminalDiv {
+        width: 100%;
+        flex-basis: 100%;
+        min-width: 0;
+    }
+
+    div#terminalDiv .fakeScreen {
+        padding: 10px;
+    }
+
+    div#terminalDiv p {
+        font-size: 1.2em;
+    }
+}
+
+
+
+/* Code review div */
+
+div#codeReviewDiv {
+    background-color: var(--light-bg-color);
+}
+
+div#codeReviewDivInner {
+    width: 80%;
+    max-width: 1000px;
+
+    margin: 1em auto 1em auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--light-bg-text-color);
+}
+
+
+
+/* Branch UI div */
+
+div#branchUiDiv {
+    background-color: var(--dark-bg-color);
+}
+
+div#branchUiDivInner {
+    width: 80%;
+    max-width: 1000px;
+
+    margin: 1em auto 1em auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--dark-bg-text-color);
+}
+
+
+
+/* Features table */
+
+div#featuresDiv {
+    background-color: var(--dark-bg-color);
+}
+
+div#newFeatureDiv {
+    background-color: #222222;
+    width: 90%;
+    border-radius: 3px;
+}
+
+div#newFeatureDivMobile {
+    display: none;
+}
+
+div#newFeatureDivMobile {
+    background-color: #222222;
+    width: 100%;
+    border-radius: 3px;
+}
+
+div.featureRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+div.featureSquare {
+    background-color: #444444;
+
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+    margin: 0.4em 0.6em 0.4em 0.6em;
+    padding: 0.6em;
+
+    border-radius: 3px;
+
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+
+    /* For centering the text vertically, sigh. */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.featureWhite {
+    color: var(--dark-bg-text-color);
+}
+
+.featureGreen {
+    color: #5fc45b;
+}
+
+.featureYellow {
+    color: #f7c349;
+}
+
+.featureRed {
+    color: #f83f4a;
+}
+
+
+div#featuresDivInner {
+    width: 80%;
+    max-width: 1000px;
+
+    margin: 1em auto 1em auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--dark-bg-text-color);
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    div#newFeatureDiv {
+        display: none;
+    }
+
+    div#newFeatureDivMobile {
+        display: block;
+    }
+
+    div#featuresDivInner {
+        width: 90%;
+    }
+}
+
+
+
+/* Sections -- TODO! Clean up! */
+
+div#sectionsDiv {
+    background-color: var(--light-bg-color);
+    color: var(--light-bg-text-color);
+    text-align: center;
+    padding: 1em;
+
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+h2.sectionHeader {
+    font-size: 1.6em;
+    margin: 1.2em auto 1.0em auto;
+}
+
+div.commandFlow {
+    max-width: 600px;
+    background-color: #505050;
+    margin: 0 auto 0 auto;
+    padding: 0.2em 1.0em 0.2em 1.0em;
+    border-radius: 5px;
+}
+
+div.commandFlow p {
+    font-family: monospace;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+
+img.screenshotImg {
+    max-width: 80%;
+    height: auto;
+
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 480px) {
+    img.screenshotImg {
+        max-width: 100%;
+    }
+}
+
+
+
+/* Pricing */
+
+
+div#pricingDiv {
+    background-color: var(--light-bg-color);
+}
+
+h2#pricing {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+div#pricingDivInner {
+    width: 70%;
+    max-width: 800px;
+
+    margin: 1em auto 1em auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--light-bg-text-color);
+}
+
+div.priceBoxesDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 480px) {
+    div.priceBoxesDiv {
+        flex-direction: column;
+    }
+}
+
+div.priceBox {
+    background-color: var(--dark-bg-color);
+    border-radius: 8px;
+    color: var(--dark-bg-text-color);
+    text-align: center;
+
+    flex-basis: 0;
+    flex-grow: 1;
+
+    padding: 1em;
+    margin: 1em;
+}
+
+p.priceName {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.5em;
+}
+
+p.priceSize {
+    font-size: 2.0em;
+    font-weight: bold;
+    margin: 0.5em 0.5em 0.2em 0.5em;
+}
+
+p.actualPrice {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.5em 0.5em 0.2em 0.5em;
+}
+
+p.priceDetail {
+    font-size: 1.2em;
+    margin-top: 0.2em;
+}

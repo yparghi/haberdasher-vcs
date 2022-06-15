@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "com.haberdashervcs.common.protobuf";
+option java_outer_classname = "MergesProto";
+option java_multiple_files = false;
+
+
+message MergeLock {
+    enum State {
+        IN_PROGRESS = 0;
+        COMPLETED = 1;
+        FAILED = 2;
+    }
+
+    // The id field here is technically redundant since the id is in the row key, but I like having it here anyway for
+    //     now.
+    // TODO: revisit this? ^
+    string id = 1;
+    string branchName = 2;
+    State state = 3;
+    int64 timestampMillis = 4;
+}

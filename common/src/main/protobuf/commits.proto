@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+option java_package = "com.haberdashervcs.common.protobuf";
+option java_outer_classname = "CommitsProto";
+option java_multiple_files = false;
+
+
+message CommitChangedPath {
+    enum ChangeType {
+        ADD = 0;
+        DELETE = 1;
+        MODIFY = 2;
+    }
+
+    string path = 1;
+    ChangeType changeType = 2;
+
+    string previousId = 3;
+    string thisId = 4;
+}
+
+
+message BranchIntegration {
+    string branch = 1;
+    int64 commitId = 2;
+}
+
+
+message CommitEntry {
+    string branchName = 1;
+    int64 commitId = 2;
+    string author = 3;
+    string message = 4;
+    repeated CommitChangedPath changedPaths = 5;
+    BranchIntegration integrationFromMain = 6;
+}

@@ -1,0 +1,27 @@
+div#signupFormContainer {
+    max-width: 500px;
+    margin: 0 auto 1.5em auto;
+}
+
+form#signupForm p.fieldLabel {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 1.5em auto 0.5em auto;
+}
+
+form#signupForm p.textField {
+    margin: 0.5em auto 0.5em auto;
+}
+
+form#signupForm p.textField input {
+    width: 100%;
+    font-size: 1.1em;
+}
+
+form#signupForm p.fieldMessage {
+    margin: 0.5em auto 0.5em auto;
+}
+
+input.buttonLink {
+    width: 200px;
+}

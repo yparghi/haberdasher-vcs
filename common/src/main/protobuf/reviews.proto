@@ -1,0 +1,100 @@
+syntax = "proto3";
+
+option java_package = "com.haberdashervcs.common.protobuf";
+option java_outer_classname = "ReviewsProto";
+option java_multiple_files = false;
+
+
+message TextDiffHunk {
+    int32 originalFromLine = 1;
+    int32 originalToLine = 2;
+    int32 modifiedFromLine = 3;
+    int32 modifiedToLine = 4;
+}
+
+
+message BinaryDiff {
+    // If this is -1, a text file was replaced with binary.
+    int64 numBytesOriginal = 1;
+    // If this is -1, binary file was replaced with text.
+    int64 numBytesModified = 2;
+}
+
+
+message FileDiffHunks {
+    // This diff is either text or binary, so exactly one of these is set.
+    repeated TextDiffHunk textDiffHunks = 1;
+    BinaryDiff binaryDiff = 2;
+}
+
+
+// This object, as distinct from CommitChangedPath, is used for display in the review UI. So for example it holds the
+// diff hunks (if any) for this change.
+//
+// IDEA: Store file id here (sent by client in commits?) for add/delete so we don't have to look it up by path.
+message FileDiffEntry {
+    enum Type {
+        ADD = 0;
+        DELETE = 1;
+        DIFF = 2;
+    }
+
+    string path = 1;
+    Type type = 2;
+
+    string previousId = 3;
+    string thisId = 4;
+
+    FileDiffHunks diffHunks = 5;
+}
+
+
+// Diff against the previous commit, which may be branch:0 / main:base.
+message CommitDiff {
+    int64 commitId = 1;
+    repeated FileDiffEntry fileDiffs = 2;
+}
+
+
+message ReviewComment {
+    string userId = 1;
+    string text = 2;
+}
+
+
+message ReviewThread {
+    enum State {
+        ACTIVE = 0;
+        RESOLVED = 1;
+    }
+
+    enum LineNumberType {
+        ORIGINAL = 0;
+        MODIFIED = 1;
+    }
+
+    string id = 1;
+
+    int64 commitId = 2;
+    string filePath = 3;
+    State state = 4;
+
+    LineNumberType lineNumberType = 5;
+    int32 lineNumber = 6;
+
+    repeated ReviewComment comments = 7;
+}
+
+
+message ReviewContents {
+    string org = 1;
+    string repo = 2;
+
+    string thisBranch = 3;
+    string otherBranch = 4;
+    int64 otherBranchCommitId = 5;
+
+    repeated CommitDiff commitDiffs = 6;
+
+    repeated ReviewThread threads = 7;
+}

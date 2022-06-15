@@ -1,0 +1,51 @@
+div.browseListingsContainer {
+    width: 100%;
+    font-family: monospace;
+    font-size: 1.3em;
+
+    margin-bottom: 1.5em;
+}
+
+h3.fileContentsHeader {
+    margin-top: 1.5em
+    margin-bottom: 1.5em
+}
+
+div.fileContentsContainer {
+    width: 100%;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+
+    padding: 0.5em;
+    margin-bottom: 1.5em;
+
+    white-space: pre;
+    font-family: monospace;
+    font-size: 1em;
+}
+
+div.browseRow:first-child {
+    border-radius: 5px 5px 0px 0px;
+}
+
+div.browseRow:last-child {
+    border-radius: 0px 0px 5px 5px;
+}
+
+div.browseRow {
+    width: 100%;
+    height: 2.0em;
+    border: 1px solid #bbbbbb;
+    padding-left: 1em;
+    /* Push the row up to make inner borders overlap. */
+    margin-top: -1px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+div.browseRow span {
+    height: 100%;
+    /* For vertical centering, the line-height must match the height of the parent div. */
+    line-height: 2.0em;
+}

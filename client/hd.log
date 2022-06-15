@@ -1,0 +1,648 @@
+2022-03-06 15:09:57 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-2380799955189051630/.hdlocal/hdlocal.db
+2022-03-06 15:10:25 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-213911492925527118/.hdlocal/hdlocal.db
+2022-03-06 15:11:49 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-5781074736933060392/.hdlocal/hdlocal.db
+2022-03-06 15:11:50 [SqliteLocalDb] INFO New file: /tmp/hd-unit-test-5781074736933060392/somefile.txt (39ac59...)
+2022-03-06 15:11:50 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=39ac5969800f779603237d01dc0be28dd795a33c591af6c7736264482265930a, contentsType=FULL, baseEntryId=null, storageType=DATASTORE}
+2022-03-06 15:11:50 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=9d1a6d42b85695bb6ab081503477a0f6afd190a92aed7e56d17d157e7bd0156e, contentsType=DIFF_GIT, baseEntryId=39ac5969800f779603237d01dc0be28dd795a33c591af6c7736264482265930a, storageType=DATASTORE}
+2022-03-06 15:11:50 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=398c08e1d0d42306056c60ef2e2e5c2d22c93cf2ca19e9a4513d3fbcf50268e8, contentsType=DIFF_GIT, baseEntryId=9d1a6d42b85695bb6ab081503477a0f6afd190a92aed7e56d17d157e7bd0156e, storageType=DATASTORE}
+2022-03-06 15:12:24 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-7334379834509861147/.hdlocal/hdlocal.db
+2022-03-06 15:12:25 [SqliteLocalDb] INFO New file: /tmp/hd-unit-test-7334379834509861147/somefile.txt (39ac59...)
+2022-03-06 15:12:25 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=39ac5969800f779603237d01dc0be28dd795a33c591af6c7736264482265930a, contentsType=FULL, baseEntryId=null, storageType=DATASTORE}
+2022-03-06 15:12:25 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=9d1a6d42b85695bb6ab081503477a0f6afd190a92aed7e56d17d157e7bd0156e, contentsType=DIFF_GIT, baseEntryId=39ac5969800f779603237d01dc0be28dd795a33c591af6c7736264482265930a, storageType=DATASTORE}
+2022-03-06 15:12:25 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=398c08e1d0d42306056c60ef2e2e5c2d22c93cf2ca19e9a4513d3fbcf50268e8, contentsType=DIFF_GIT, baseEntryId=9d1a6d42b85695bb6ab081503477a0f6afd190a92aed7e56d17d157e7bd0156e, storageType=DATASTORE}
+2022-03-06 15:13:05 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-944754604425157553/.hdlocal/hdlocal.db
+2022-03-06 15:13:06 [SqliteLocalDb] INFO New file: /tmp/hd-unit-test-944754604425157553/somefile.txt (39ac59...)
+2022-03-06 15:13:06 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=39ac5969800f779603237d01dc0be28dd795a33c591af6c7736264482265930a, contentsType=FULL, baseEntryId=null, storageType=DATASTORE}
+2022-03-06 15:13:06 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=9d1a6d42b85695bb6ab081503477a0f6afd190a92aed7e56d17d157e7bd0156e, contentsType=DIFF_GIT, baseEntryId=39ac5969800f779603237d01dc0be28dd795a33c591af6c7736264482265930a, storageType=DATASTORE}
+2022-03-06 15:13:22 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=398c08e1d0d42306056c60ef2e2e5c2d22c93cf2ca19e9a4513d3fbcf50268e8, contentsType=DIFF_GIT, baseEntryId=9d1a6d42b85695bb6ab081503477a0f6afd190a92aed7e56d17d157e7bd0156e, storageType=DATASTORE}
+2022-03-06 15:14:31 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-9838288777875719683/.hdlocal/hdlocal.db
+2022-03-06 15:14:31 [SqliteLocalDb] INFO New file: /tmp/hd-unit-test-9838288777875719683/somefile.txt (b933b9...)
+2022-03-06 15:14:31 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=b933b9463b52b2b88b234d5e8df050bf9cab6c7e1988cad316f571d986aa2e1a, contentsType=FULL, baseEntryId=null, storageType=DATASTORE}
+2022-03-06 15:14:31 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=d3bf5e34f11d36f1fbde1d9cbc88d124d8d6f3610a6da5674a2cc3f9092f0917, contentsType=DIFF_GIT, baseEntryId=b933b9463b52b2b88b234d5e8df050bf9cab6c7e1988cad316f571d986aa2e1a, storageType=DATASTORE}
+2022-03-06 15:14:31 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=d5dc9650f0dd276b61f8e551a208ad899274bc3d9e0630d3e3c2f8732e1d9d5a, contentsType=DIFF_GIT, baseEntryId=d3bf5e34f11d36f1fbde1d9cbc88d124d8d6f3610a6da5674a2cc3f9092f0917, storageType=DATASTORE}
+2022-03-06 15:14:44 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-9934645511682929808/.hdlocal/hdlocal.db
+2022-03-06 15:14:45 [SqliteLocalDb] INFO New file: /tmp/hd-unit-test-9934645511682929808/somefile.txt (d3bf5e...)
+2022-03-06 15:14:45 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=d3bf5e34f11d36f1fbde1d9cbc88d124d8d6f3610a6da5674a2cc3f9092f0917, contentsType=FULL, baseEntryId=null, storageType=DATASTORE}
+2022-03-06 15:14:45 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=3002dc13d98707fc35573b0c1e4dd6696ce1112a569c88b5052f8a7b9ae62590, contentsType=DIFF_GIT, baseEntryId=d3bf5e34f11d36f1fbde1d9cbc88d124d8d6f3610a6da5674a2cc3f9092f0917, storageType=DATASTORE}
+2022-03-06 15:14:45 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=176a771729182971828c462d8aebda6c9607e15b50506024d20c6ab5128960cd, contentsType=DIFF_GIT, baseEntryId=3002dc13d98707fc35573b0c1e4dd6696ce1112a569c88b5052f8a7b9ae62590, storageType=DATASTORE}
+2022-03-06 15:14:56 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-10061477567304815691/.hdlocal/hdlocal.db
+2022-03-06 15:14:56 [SqliteLocalDb] INFO New file: /tmp/hd-unit-test-10061477567304815691/somefile.txt (d5dc96...)
+2022-03-06 15:14:56 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=d5dc9650f0dd276b61f8e551a208ad899274bc3d9e0630d3e3c2f8732e1d9d5a, contentsType=FULL, baseEntryId=null, storageType=DATASTORE}
+2022-03-06 15:14:56 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=176a771729182971828c462d8aebda6c9607e15b50506024d20c6ab5128960cd, contentsType=DIFF_GIT, baseEntryId=d5dc9650f0dd276b61f8e551a208ad899274bc3d9e0630d3e3c2f8732e1d9d5a, storageType=DATASTORE}
+2022-03-06 15:14:56 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=bada28e44612f146be0510917cae74d08bd4bef2c0aa4df93d81686de59230ce, contentsType=DIFF_GIT, baseEntryId=176a771729182971828c462d8aebda6c9607e15b50506024d20c6ab5128960cd, storageType=DATASTORE}
+2022-03-06 15:16:30 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-14591302995038208835/.hdlocal/hdlocal.db
+2022-03-06 15:16:30 [SqliteLocalDb] INFO New file: /tmp/hd-unit-test-14591302995038208835/somefile.txt (089d30...)
+2022-03-06 15:16:30 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=089d30138ea6983d215edbdbd1ed5c22badc5b86493fe0babf514e721fdb345d, contentsType=FULL, baseEntryId=null, storageType=DATASTORE}
+2022-03-06 15:16:30 [SqliteLocalDb] INFO TEMP! commit contents: text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+
+2022-03-06 15:16:30 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=cb59ce6c47c2e14418c46b6016c860f9921b685723e6766b7d099a5f2cc92d24, contentsType=DIFF_GIT, baseEntryId=089d30138ea6983d215edbdbd1ed5c22badc5b86493fe0babf514e721fdb345d, storageType=DATASTORE}
+2022-03-06 15:16:30 [SqliteLocalDb] INFO TEMP! commit contents: ��	�Xtext2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text\2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+
+2022-03-06 15:16:30 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=28b2a58091e504dc8ea062334b2eb8b747a56572781aaa87daed4fbb5a594155, contentsType=DIFF_GIT, baseEntryId=cb59ce6c47c2e14418c46b6016c860f9921b685723e6766b7d099a5f2cc92d24, storageType=DATASTORE}
+2022-03-06 15:17:34 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-14098291646457328922/.hdlocal/hdlocal.db
+2022-03-06 15:17:35 [SqliteLocalDb] INFO New file: /tmp/hd-unit-test-14098291646457328922/somefile.txt (0b14da...)
+2022-03-06 15:17:35 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=0b14daa2d9f9f3ab73bb5ddaa95a6d216208fd7e8c6c06ef472765f766858a79, contentsType=FULL, baseEntryId=null, storageType=DATASTORE}
+2022-03-06 15:17:35 [SqliteLocalDb] INFO TEMP! commit contents: text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+
+2022-03-06 15:17:35 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=2718f45c9a1bb9d864cbe7a6751f5a04a05708f622842192b3eb7d60739361d1, contentsType=DIFF_GIT, baseEntryId=0b14daa2d9f9f3ab73bb5ddaa95a6d216208fd7e8c6c06ef472765f766858a79, storageType=DATASTORE}
+2022-03-06 15:17:35 [SqliteLocalDb] INFO TEMP! commit contents: <x�<<text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+
+2022-03-06 15:17:35 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=1f98bbd3140ae4df70f4de96d99df6067da070cfd39643c852a76c4ae65161a0, contentsType=DIFF_GIT, baseEntryId=2718f45c9a1bb9d864cbe7a6751f5a04a05708f622842192b3eb7d60739361d1, storageType=DATASTORE}
+2022-03-06 15:18:39 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-2044180149355442114/.hdlocal/hdlocal.db
+2022-03-06 15:18:40 [SqliteLocalDb] INFO New file: /tmp/hd-unit-test-2044180149355442114/somefile.txt (0b14da...)
+2022-03-06 15:18:40 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=0b14daa2d9f9f3ab73bb5ddaa95a6d216208fd7e8c6c06ef472765f766858a79, contentsType=FULL, baseEntryId=null, storageType=DATASTORE}
+2022-03-06 15:18:40 [SqliteLocalDb] INFO TEMP! commit contents: text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+
+2022-03-06 15:18:40 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=2718f45c9a1bb9d864cbe7a6751f5a04a05708f622842192b3eb7d60739361d1, contentsType=DIFF_GIT, baseEntryId=0b14daa2d9f9f3ab73bb5ddaa95a6d216208fd7e8c6c06ef472765f766858a79, storageType=DATASTORE}
+2022-03-06 15:18:40 [SqliteLocalDb] INFO TEMP! commit contents: text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+
+2022-03-06 15:18:40 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=1f98bbd3140ae4df70f4de96d99df6067da070cfd39643c852a76c4ae65161a0, contentsType=DIFF_GIT, baseEntryId=2718f45c9a1bb9d864cbe7a6751f5a04a05708f622842192b3eb7d60739361d1, storageType=DATASTORE}
+2022-03-06 15:18:51 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-4218871307663396528/.hdlocal/hdlocal.db
+2022-03-06 15:18:52 [SqliteLocalDb] INFO New file: /tmp/hd-unit-test-4218871307663396528/somefile.txt (0b14da...)
+2022-03-06 15:18:52 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=0b14daa2d9f9f3ab73bb5ddaa95a6d216208fd7e8c6c06ef472765f766858a79, contentsType=FULL, baseEntryId=null, storageType=DATASTORE}
+2022-03-06 15:18:52 [SqliteLocalDb] INFO TEMP! commit contents: text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+text1
+
+2022-03-06 15:18:52 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=2718f45c9a1bb9d864cbe7a6751f5a04a05708f622842192b3eb7d60739361d1, contentsType=DIFF_GIT, baseEntryId=0b14daa2d9f9f3ab73bb5ddaa95a6d216208fd7e8c6c06ef472765f766858a79, storageType=DATASTORE}
+2022-03-06 15:18:52 [SqliteLocalDb] INFO TEMP! commit contents: <x�<<text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+text2
+
+2022-03-06 15:18:52 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=1f98bbd3140ae4df70f4de96d99df6067da070cfd39643c852a76c4ae65161a0, contentsType=DIFF_GIT, baseEntryId=2718f45c9a1bb9d864cbe7a6751f5a04a05708f622842192b3eb7d60739361d1, storageType=DATASTORE}
+2022-03-06 15:19:16 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-8207403967329986335/.hdlocal/hdlocal.db
+2022-03-06 15:19:16 [SqliteLocalDb] INFO New file: /tmp/hd-unit-test-8207403967329986335/somefile.txt (0b14da...)
+2022-03-06 15:19:16 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=0b14daa2d9f9f3ab73bb5ddaa95a6d216208fd7e8c6c06ef472765f766858a79, contentsType=FULL, baseEntryId=null, storageType=DATASTORE}
+2022-03-06 15:19:16 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=2718f45c9a1bb9d864cbe7a6751f5a04a05708f622842192b3eb7d60739361d1, contentsType=DIFF_GIT, baseEntryId=0b14daa2d9f9f3ab73bb5ddaa95a6d216208fd7e8c6c06ef472765f766858a79, storageType=DATASTORE}
+2022-03-06 15:19:16 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=1f98bbd3140ae4df70f4de96d99df6067da070cfd39643c852a76c4ae65161a0, contentsType=DIFF_GIT, baseEntryId=2718f45c9a1bb9d864cbe7a6751f5a04a05708f622842192b3eb7d60739361d1, storageType=DATASTORE}
+2022-03-06 15:20:24 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-8644144119737693563/.hdlocal/hdlocal.db
+2022-03-06 15:20:24 [SqliteLocalDb] INFO New file: /tmp/hd-unit-test-8644144119737693563/somefile.txt (089d30...)
+2022-03-06 15:20:24 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=089d30138ea6983d215edbdbd1ed5c22badc5b86493fe0babf514e721fdb345d, contentsType=FULL, baseEntryId=null, storageType=DATASTORE}
+2022-03-06 15:20:24 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=cb59ce6c47c2e14418c46b6016c860f9921b685723e6766b7d099a5f2cc92d24, contentsType=DIFF_GIT, baseEntryId=089d30138ea6983d215edbdbd1ed5c22badc5b86493fe0babf514e721fdb345d, storageType=DATASTORE}
+2022-03-06 15:20:24 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=28b2a58091e504dc8ea062334b2eb8b747a56572781aaa87daed4fbb5a594155, contentsType=DIFF_GIT, baseEntryId=cb59ce6c47c2e14418c46b6016c860f9921b685723e6766b7d099a5f2cc92d24, storageType=DATASTORE}
+2022-03-06 15:59:47 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-9696497537511404734/.hdlocal/hdlocal.db
+2022-03-06 15:59:48 [SqliteLocalDb] INFO New file: /tmp/hd-unit-test-9696497537511404734/somefile.txt (089d30...)
+2022-03-06 15:59:48 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=089d30138ea6983d215edbdbd1ed5c22badc5b86493fe0babf514e721fdb345d, contentsType=FULL, baseEntryId=null, storageType=DATASTORE}
+2022-03-06 15:59:48 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=cb59ce6c47c2e14418c46b6016c860f9921b685723e6766b7d099a5f2cc92d24, contentsType=DIFF_GIT, baseEntryId=089d30138ea6983d215edbdbd1ed5c22badc5b86493fe0babf514e721fdb345d, storageType=DATASTORE}
+2022-03-06 15:59:48 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=28b2a58091e504dc8ea062334b2eb8b747a56572781aaa87daed4fbb5a594155, contentsType=DIFF_GIT, baseEntryId=cb59ce6c47c2e14418c46b6016c860f9921b685723e6766b7d099a5f2cc92d24, storageType=DATASTORE}
+2022-03-12 16:51:20 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-17147209074591082283/.hdlocal/hdlocal.db
+2022-03-12 16:51:20 [SqliteLocalDb] INFO New file: /tmp/hd-unit-test-17147209074591082283/somefile.txt (089d30...)
+2022-03-12 16:51:20 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=089d30138ea6983d215edbdbd1ed5c22badc5b86493fe0babf514e721fdb345d, contentsType=FULL, baseEntryId=null, storageType=DATASTORE}
+2022-03-12 16:51:20 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=cb59ce6c47c2e14418c46b6016c860f9921b685723e6766b7d099a5f2cc92d24, contentsType=DIFF_GIT, baseEntryId=089d30138ea6983d215edbdbd1ed5c22badc5b86493fe0babf514e721fdb345d, storageType=DATASTORE}
+2022-03-12 16:51:20 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=28b2a58091e504dc8ea062334b2eb8b747a56572781aaa87daed4fbb5a594155, contentsType=DIFF_GIT, baseEntryId=cb59ce6c47c2e14418c46b6016c860f9921b685723e6766b7d099a5f2cc92d24, storageType=DATASTORE}
+2022-03-12 17:03:01 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-9415450984440022270/.hdlocal/hdlocal.db
+2022-03-12 17:03:01 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FILE, name=file.txt, id=xxx}], mergeLockId=Optional.empty}
+2022-03-12 17:05:52 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-9415215726083429320/.hdlocal/hdlocal.db
+2022-03-12 17:05:52 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FILE, name=file.txt, id=xxx}], mergeLockId=Optional.empty}
+2022-03-12 17:05:52 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=file.txt, id=yyy}], mergeLockId=Optional.empty}
+2022-03-12 17:06:55 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-11685170019589361048/.hdlocal/hdlocal.db
+2022-03-12 17:06:56 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FILE, name=file.txt, id=xxx}], mergeLockId=Optional.empty}
+2022-03-12 17:06:56 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=file.txt, id=yyy}], mergeLockId=Optional.empty}
+2022-03-12 17:09:03 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-10731246501457951761/.hdlocal/hdlocal.db
+2022-03-12 17:09:04 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FILE, name=file.txt, id=xxx}], mergeLockId=Optional.empty}
+2022-03-12 17:09:04 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=file.txt, id=yyy}], mergeLockId=Optional.empty}
+2022-03-12 17:09:04 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 17:09:04 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 17:11:56 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-15380861227266250049/.hdlocal/hdlocal.db
+2022-03-12 17:11:56 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FILE, name=file.txt1, id=xxx}], mergeLockId=Optional.empty}
+2022-03-12 17:11:56 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=file1.txt, id=yyy}, Entry{type=FILE, name=file2.txt, id=zzz}], mergeLockId=Optional.empty}
+2022-03-12 17:11:56 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 17:11:56 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 17:12:08 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-2723239012536318948/.hdlocal/hdlocal.db
+2022-03-12 17:12:09 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FILE, name=file.txt1, id=xxx}], mergeLockId=Optional.empty}
+2022-03-12 17:12:09 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=file1.txt, id=yyy}, Entry{type=FILE, name=file2.txt, id=zzz}], mergeLockId=Optional.empty}
+2022-03-12 17:12:09 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 17:12:09 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 17:12:42 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-11666479765000548079/.hdlocal/hdlocal.db
+2022-03-12 17:12:43 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FILE, name=file1.txt, id=xxx}], mergeLockId=Optional.empty}
+2022-03-12 17:12:43 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=file1.txt, id=yyy}, Entry{type=FILE, name=file2.txt, id=zzz}], mergeLockId=Optional.empty}
+2022-03-12 17:12:43 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 17:12:43 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 17:12:55 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-15618334156629149661/.hdlocal/hdlocal.db
+2022-03-12 17:12:55 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FILE, name=file1.txt, id=xxx}], mergeLockId=Optional.empty}
+2022-03-12 17:12:55 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=file1.txt, id=yyy}, Entry{type=FILE, name=file2.txt, id=zzz}], mergeLockId=Optional.empty}
+2022-03-12 17:12:55 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 17:12:55 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 17:14:03 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-3739483953498200821/.hdlocal/hdlocal.db
+2022-03-12 17:14:03 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FILE, name=file1.txt, id=xxx}, Entry{type=FILE, name=onlyOnMain.txt, id=onlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:14:03 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=file1.txt, id=yyy}, Entry{type=FILE, name=file2.txt, id=zzz}], mergeLockId=Optional.empty}
+2022-03-12 17:14:03 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 17:14:03 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 17:28:20 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-1676239891925023484/.hdlocal/hdlocal.db
+2022-03-12 17:28:20 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=subfolder, id=}, Entry{type=FILE, name=file1.txt, id=xxx}, Entry{type=FILE, name=onlyOnMain.txt, id=onlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:28:20 [SqliteLocalDb] DEBUG putFolder: main:/subfolder/:00000000000000000001 / FolderListing{path=/subfolder/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subfile1.txt, id=subfile1-id}, Entry{type=FILE, name=subOnlyOnMain.txt, id=subOnlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:28:20 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FOLDER, name=subfolder, id=}, Entry{type=FILE, name=file1.txt, id=yyy}, Entry{type=FILE, name=file2.txt, id=zzz}], mergeLockId=Optional.empty}
+2022-03-12 17:28:20 [SqliteLocalDb] DEBUG putFolder: branch:/subfolder/:00000000000000000001 / FolderListing{path=/subfolder/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subfile1.txt, id=subfile1-modified-id}, Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 17:28:20 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 17:28:20 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 17:28:20 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /subfolder/ | 00000000000000000001
+2022-03-12 17:28:20 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /subfolder/ | 00000000000000000001
+2022-03-12 17:28:38 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-2181750377010627676/.hdlocal/hdlocal.db
+2022-03-12 17:28:39 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=subfolder, id=}, Entry{type=FILE, name=file1.txt, id=xxx}, Entry{type=FILE, name=onlyOnMain.txt, id=onlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:28:39 [SqliteLocalDb] DEBUG putFolder: main:/subfolder/:00000000000000000001 / FolderListing{path=/subfolder/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subfile1.txt, id=subfile1-id}, Entry{type=FILE, name=subOnlyOnMain.txt, id=subOnlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:28:39 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FOLDER, name=subfolder, id=}, Entry{type=FILE, name=file1.txt, id=yyy}, Entry{type=FILE, name=file2.txt, id=zzz}], mergeLockId=Optional.empty}
+2022-03-12 17:28:39 [SqliteLocalDb] DEBUG putFolder: branch:/subfolder/:00000000000000000001 / FolderListing{path=/subfolder/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subfile1.txt, id=subfile1-modified-id}, Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 17:28:39 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 17:28:39 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 17:28:39 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /subfolder/ | 00000000000000000001
+2022-03-12 17:28:39 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /subfolder/ | 00000000000000000001
+2022-03-12 17:29:03 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-11102823269325745627/.hdlocal/hdlocal.db
+2022-03-12 17:29:04 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=subfolder, id=}, Entry{type=FILE, name=file1.txt, id=xxx}, Entry{type=FILE, name=onlyOnMain.txt, id=onlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:29:04 [SqliteLocalDb] DEBUG putFolder: main:/subfolder/:00000000000000000001 / FolderListing{path=/subfolder/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subfile1.txt, id=subfile1-id}, Entry{type=FILE, name=subOnlyOnMain.txt, id=subOnlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:29:04 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FOLDER, name=subfolder, id=}, Entry{type=FILE, name=file1.txt, id=yyy}, Entry{type=FILE, name=file2.txt, id=zzz}], mergeLockId=Optional.empty}
+2022-03-12 17:29:04 [SqliteLocalDb] DEBUG putFolder: branch:/subfolder/:00000000000000000001 / FolderListing{path=/subfolder/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subfile1.txt, id=subfile1-modified-id}, Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 17:29:04 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 17:29:04 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 17:29:04 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /subfolder/ | 00000000000000000001
+2022-03-12 17:29:04 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /subfolder/ | 00000000000000000001
+2022-03-12 17:37:54 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-15759796916095209122/.hdlocal/hdlocal.db
+2022-03-12 17:37:54 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=subfolderMain, id=}, Entry{type=FILE, name=file1.txt, id=file1-id}, Entry{type=FILE, name=onlyOnMain.txt, id=onlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:37:54 [SqliteLocalDb] DEBUG putFolder: main:/subfolderMain/:00000000000000000001 / FolderListing{path=/subfolderMain/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnMain.txt, id=subOnlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:37:54 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FOLDER, name=subfolderBranch, id=}, Entry{type=FILE, name=file1.txt, id=file1-id}, Entry{type=FILE, name=onlyOnBranch.txt, id=onlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 17:37:54 [SqliteLocalDb] DEBUG putFolder: branch:/subfolderBranch/:00000000000000000001 / FolderListing{path=/subfolderBranch/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 17:37:54 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 17:37:54 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 17:37:55 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /subfolderBranch/ | 00000000000000000001
+2022-03-12 17:37:55 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /subfolderMain/ | 00000000000000000001
+2022-03-12 17:38:06 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-10075343512866378350/.hdlocal/hdlocal.db
+2022-03-12 17:38:06 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=subfolderMain, id=}, Entry{type=FILE, name=file1.txt, id=file1-id}, Entry{type=FILE, name=onlyOnMain.txt, id=onlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:38:06 [SqliteLocalDb] DEBUG putFolder: main:/subfolderMain/:00000000000000000001 / FolderListing{path=/subfolderMain/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnMain.txt, id=subOnlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:38:06 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FOLDER, name=subfolderBranch, id=}, Entry{type=FILE, name=file1.txt, id=file1-id}, Entry{type=FILE, name=onlyOnBranch.txt, id=onlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 17:38:06 [SqliteLocalDb] DEBUG putFolder: branch:/subfolderBranch/:00000000000000000001 / FolderListing{path=/subfolderBranch/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 17:38:06 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 17:38:06 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 17:38:06 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /subfolderBranch/ | 00000000000000000001
+2022-03-12 17:38:06 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /subfolderMain/ | 00000000000000000001
+2022-03-12 17:40:08 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-5804930204332323120/.hdlocal/hdlocal.db
+2022-03-12 17:40:09 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=subfolderMain, id=}, Entry{type=FILE, name=file1.txt, id=file1-id}, Entry{type=FILE, name=onlyOnMain.txt, id=onlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:40:09 [SqliteLocalDb] DEBUG putFolder: main:/subfolderMain/:00000000000000000001 / FolderListing{path=/subfolderMain/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnMain.txt, id=subOnlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:40:09 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FOLDER, name=subfolderBranch, id=}, Entry{type=FILE, name=file1.txt, id=file1-id}, Entry{type=FILE, name=onlyOnBranch.txt, id=onlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 17:40:09 [SqliteLocalDb] DEBUG putFolder: branch:/subfolderBranch/:00000000000000000001 / FolderListing{path=/subfolderBranch/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 17:40:09 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 17:40:09 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 17:40:09 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /subfolderMain/ | 00000000000000000001
+2022-03-12 17:40:09 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /subfolderBranch/ | 00000000000000000001
+2022-03-12 17:40:46 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-16985599887496601409/.hdlocal/hdlocal.db
+2022-03-12 17:40:46 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=subfolderMain, id=}, Entry{type=FILE, name=file1.txt, id=file1-id}, Entry{type=FILE, name=onlyOnMain.txt, id=onlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:40:46 [SqliteLocalDb] DEBUG putFolder: main:/subfolderMain/:00000000000000000001 / FolderListing{path=/subfolderMain/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnMain.txt, id=subOnlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:40:46 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FOLDER, name=subfolderBranch, id=}, Entry{type=FILE, name=file1.txt, id=file1-id}, Entry{type=FILE, name=onlyOnBranch.txt, id=onlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 17:40:46 [SqliteLocalDb] DEBUG putFolder: branch:/subfolderBranch/:00000000000000000001 / FolderListing{path=/subfolderBranch/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 17:40:46 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 17:40:46 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 17:40:46 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /subfolderMain/ | 00000000000000000001
+2022-03-12 17:40:46 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /subfolderBranch/ | 00000000000000000001
+2022-03-12 17:41:14 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-725698431837758107/.hdlocal/hdlocal.db
+2022-03-12 17:41:15 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=subfolder, id=}, Entry{type=FILE, name=file1.txt, id=xxx}, Entry{type=FILE, name=onlyOnMain.txt, id=onlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:41:15 [SqliteLocalDb] DEBUG putFolder: main:/subfolder/:00000000000000000001 / FolderListing{path=/subfolder/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subfile1.txt, id=subfile1-id}, Entry{type=FILE, name=subOnlyOnMain.txt, id=subOnlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:41:15 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FOLDER, name=subfolder, id=}, Entry{type=FILE, name=file1.txt, id=yyy}, Entry{type=FILE, name=file2.txt, id=zzz}], mergeLockId=Optional.empty}
+2022-03-12 17:41:15 [SqliteLocalDb] DEBUG putFolder: branch:/subfolder/:00000000000000000001 / FolderListing{path=/subfolder/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subfile1.txt, id=subfile1-modified-id}, Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 17:41:15 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 17:41:15 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 17:41:15 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /subfolder/ | 00000000000000000001
+2022-03-12 17:41:15 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /subfolder/ | 00000000000000000001
+2022-03-12 17:41:36 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-10210909561810524821/.hdlocal/hdlocal.db
+2022-03-12 17:41:36 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=subfolder, id=}, Entry{type=FILE, name=file1.txt, id=xxx}, Entry{type=FILE, name=onlyOnMain.txt, id=onlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:41:36 [SqliteLocalDb] DEBUG putFolder: main:/subfolder/:00000000000000000001 / FolderListing{path=/subfolder/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subfile1.txt, id=subfile1-id}, Entry{type=FILE, name=subOnlyOnMain.txt, id=subOnlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:41:36 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FOLDER, name=subfolder, id=}, Entry{type=FILE, name=file1.txt, id=yyy}, Entry{type=FILE, name=file2.txt, id=zzz}], mergeLockId=Optional.empty}
+2022-03-12 17:41:36 [SqliteLocalDb] DEBUG putFolder: branch:/subfolder/:00000000000000000001 / FolderListing{path=/subfolder/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subfile1.txt, id=subfile1-modified-id}, Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 17:41:36 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 17:41:36 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 17:41:36 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /subfolder/ | 00000000000000000001
+2022-03-12 17:41:36 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /subfolder/ | 00000000000000000001
+2022-03-12 17:41:42 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-1283373937090935772/.hdlocal/hdlocal.db
+2022-03-12 17:41:43 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=subfolder, id=}, Entry{type=FILE, name=file1.txt, id=xxx}, Entry{type=FILE, name=onlyOnMain.txt, id=onlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:41:43 [SqliteLocalDb] DEBUG putFolder: main:/subfolder/:00000000000000000001 / FolderListing{path=/subfolder/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subfile1.txt, id=subfile1-id}, Entry{type=FILE, name=subOnlyOnMain.txt, id=subOnlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:41:43 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FOLDER, name=subfolder, id=}, Entry{type=FILE, name=file1.txt, id=yyy}, Entry{type=FILE, name=file2.txt, id=zzz}], mergeLockId=Optional.empty}
+2022-03-12 17:41:43 [SqliteLocalDb] DEBUG putFolder: branch:/subfolder/:00000000000000000001 / FolderListing{path=/subfolder/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subfile1.txt, id=subfile1-modified-id}, Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 17:41:43 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 17:41:43 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 17:41:43 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /subfolder/ | 00000000000000000001
+2022-03-12 17:41:43 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /subfolder/ | 00000000000000000001
+2022-03-12 17:41:43 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-5629051694509033416/.hdlocal/hdlocal.db
+2022-03-12 17:41:43 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=subfolderMain, id=}, Entry{type=FILE, name=file1.txt, id=file1-id}, Entry{type=FILE, name=onlyOnMain.txt, id=onlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:41:43 [SqliteLocalDb] DEBUG putFolder: main:/subfolderMain/:00000000000000000001 / FolderListing{path=/subfolderMain/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnMain.txt, id=subOnlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 17:41:43 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FOLDER, name=subfolderBranch, id=}, Entry{type=FILE, name=file1.txt, id=file1-id}, Entry{type=FILE, name=onlyOnBranch.txt, id=onlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 17:41:43 [SqliteLocalDb] DEBUG putFolder: branch:/subfolderBranch/:00000000000000000001 / FolderListing{path=/subfolderBranch/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 17:41:43 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 17:41:43 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 17:41:43 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /subfolderMain/ | 00000000000000000001
+2022-03-12 17:41:43 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /subfolderBranch/ | 00000000000000000001
+2022-03-12 18:24:50 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-13099401336465221622/.hdlocal/hdlocal.db
+2022-03-12 18:24:51 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-03-12 18:24:51 [SqliteLocalDb] DEBUG putFolder: main:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subfileMain.txt, id=subfileMain-id}], mergeLockId=Optional.empty}
+2022-03-12 18:24:51 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-03-12 18:24:51 [SqliteLocalDb] DEBUG putFolder: Already exists
+2022-03-12 18:24:51 [SqliteLocalDb] DEBUG putFolder: branch:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 18:24:51 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000002 / FolderListing{path=/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=folderToFile, id=folderToFile-asFile-id}, Entry{type=FOLDER, name=fileToFolder, id=}], mergeLockId=Optional.empty}
+2022-03-12 18:24:51 [SqliteLocalDb] DEBUG putFolder: branch:/fileToFolder/:00000000000000000002 / FolderListing{path=/fileToFolder/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=fileToFolder-file.txt, id=fileToFolder-file-id}], mergeLockId=Optional.empty}
+2022-03-12 18:24:51 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 18:24:51 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000002
+2022-03-12 18:24:51 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /folderToFile/ | 00000000000000000001
+2022-03-12 18:24:51 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /fileToFolder/ | 00000000000000000002
+2022-03-12 18:26:02 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-291535823995659994/.hdlocal/hdlocal.db
+2022-03-12 18:26:03 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-03-12 18:26:03 [SqliteLocalDb] DEBUG putFolder: main:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subfileMain.txt, id=subfileMain-id}], mergeLockId=Optional.empty}
+2022-03-12 18:26:03 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-03-12 18:26:03 [SqliteLocalDb] DEBUG putFolder: Already exists
+2022-03-12 18:26:03 [SqliteLocalDb] DEBUG putFolder: branch:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 18:26:03 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000002 / FolderListing{path=/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=folderToFile, id=folderToFile-asFile-id}, Entry{type=FOLDER, name=fileToFolder, id=}], mergeLockId=Optional.empty}
+2022-03-12 18:26:03 [SqliteLocalDb] DEBUG putFolder: branch:/fileToFolder/:00000000000000000002 / FolderListing{path=/fileToFolder/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=fileToFolder-file.txt, id=fileToFolder-file-id}], mergeLockId=Optional.empty}
+2022-03-12 18:26:03 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 18:26:03 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000002
+2022-03-12 18:26:03 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /folderToFile/ | 00000000000000000001
+2022-03-12 18:26:03 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /fileToFolder/ | 00000000000000000002
+2022-03-12 18:27:42 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-8098538829061290364/.hdlocal/hdlocal.db
+2022-03-12 18:27:43 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-03-12 18:27:43 [SqliteLocalDb] DEBUG putFolder: main:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subfileMain.txt, id=subfileMain-id}], mergeLockId=Optional.empty}
+2022-03-12 18:27:43 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-03-12 18:27:43 [SqliteLocalDb] DEBUG putFolder: Already exists
+2022-03-12 18:27:43 [SqliteLocalDb] DEBUG putFolder: branch:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 18:27:43 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000002 / FolderListing{path=/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=folderToFile, id=folderToFile-asFile-id}, Entry{type=FOLDER, name=fileToFolder, id=}], mergeLockId=Optional.empty}
+2022-03-12 18:27:43 [SqliteLocalDb] DEBUG putFolder: branch:/fileToFolder/:00000000000000000002 / FolderListing{path=/fileToFolder/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=fileToFolder-file.txt, id=fileToFolder-file-id}], mergeLockId=Optional.empty}
+2022-03-12 18:27:43 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 18:27:43 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000002
+2022-03-12 18:28:18 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /folderToFile/ | 00000000000000000001
+2022-03-12 18:28:18 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /fileToFolder/ | 00000000000000000002
+2022-03-12 18:29:03 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-13363550505556908993/.hdlocal/hdlocal.db
+2022-03-12 18:29:04 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-03-12 18:29:04 [SqliteLocalDb] DEBUG putFolder: main:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subfileMain.txt, id=subfileMain-id}], mergeLockId=Optional.empty}
+2022-03-12 18:29:04 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-03-12 18:29:04 [SqliteLocalDb] DEBUG putFolder: Already exists
+2022-03-12 18:29:04 [SqliteLocalDb] DEBUG putFolder: branch:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 18:29:04 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000002 / FolderListing{path=/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=folderToFile, id=folderToFile-asFile-id}, Entry{type=FOLDER, name=fileToFolder, id=}], mergeLockId=Optional.empty}
+2022-03-12 18:29:04 [SqliteLocalDb] DEBUG putFolder: branch:/fileToFolder/:00000000000000000002 / FolderListing{path=/fileToFolder/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=fileToFolder-file.txt, id=fileToFolder-file-id}], mergeLockId=Optional.empty}
+2022-03-12 18:29:04 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 18:29:04 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000002
+2022-03-12 18:29:29 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /folderToFile/ | 00000000000000000001
+2022-03-12 18:29:29 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /fileToFolder/ | 00000000000000000002
+2022-03-12 18:29:46 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-17035200235422816781/.hdlocal/hdlocal.db
+2022-03-12 18:29:46 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-03-12 18:29:46 [SqliteLocalDb] DEBUG putFolder: main:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subfileMain.txt, id=subfileMain-id}], mergeLockId=Optional.empty}
+2022-03-12 18:29:46 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-03-12 18:29:46 [SqliteLocalDb] DEBUG putFolder: Already exists
+2022-03-12 18:29:46 [SqliteLocalDb] DEBUG putFolder: branch:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 18:29:46 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000002 / FolderListing{path=/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=folderToFile, id=folderToFile-asFile-id}, Entry{type=FOLDER, name=fileToFolder, id=}], mergeLockId=Optional.empty}
+2022-03-12 18:29:46 [SqliteLocalDb] DEBUG putFolder: branch:/fileToFolder/:00000000000000000002 / FolderListing{path=/fileToFolder/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=fileToFolder-file.txt, id=fileToFolder-file-id}], mergeLockId=Optional.empty}
+2022-03-12 18:29:46 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 18:29:46 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000002
+2022-03-12 18:29:46 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /folderToFile/ | 00000000000000000001
+2022-03-12 18:29:46 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /fileToFolder/ | 00000000000000000002
+2022-03-12 18:31:04 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-6094247843780959797/.hdlocal/hdlocal.db
+2022-03-12 18:31:05 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-03-12 18:31:05 [SqliteLocalDb] DEBUG putFolder: main:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subfileMain.txt, id=subfileMain-id}], mergeLockId=Optional.empty}
+2022-03-12 18:31:05 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-03-12 18:31:05 [SqliteLocalDb] DEBUG putFolder: Already exists
+2022-03-12 18:31:05 [SqliteLocalDb] DEBUG putFolder: branch:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 18:31:05 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000002 / FolderListing{path=/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=folderToFile, id=folderToFile-asFile-id}, Entry{type=FOLDER, name=fileToFolder, id=}], mergeLockId=Optional.empty}
+2022-03-12 18:31:05 [SqliteLocalDb] DEBUG putFolder: branch:/fileToFolder/:00000000000000000002 / FolderListing{path=/fileToFolder/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=fileToFolder-file.txt, id=fileToFolder-file-id}], mergeLockId=Optional.empty}
+2022-03-12 18:31:05 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 18:31:05 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000002
+2022-03-12 18:31:05 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /folderToFile/ | 00000000000000000001
+2022-03-12 18:31:05 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /fileToFolder/ | 00000000000000000002
+2022-03-12 18:31:30 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-16541246831153418371/.hdlocal/hdlocal.db
+2022-03-12 18:31:31 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-03-12 18:31:31 [SqliteLocalDb] DEBUG putFolder: main:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subfileMain.txt, id=subfileMain-id}], mergeLockId=Optional.empty}
+2022-03-12 18:31:31 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-03-12 18:31:31 [SqliteLocalDb] DEBUG putFolder: Already exists
+2022-03-12 18:31:31 [SqliteLocalDb] DEBUG putFolder: branch:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 18:31:31 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000002 / FolderListing{path=/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=folderToFile, id=folderToFile-asFile-id}, Entry{type=FOLDER, name=fileToFolder, id=}], mergeLockId=Optional.empty}
+2022-03-12 18:31:31 [SqliteLocalDb] DEBUG putFolder: branch:/fileToFolder/:00000000000000000002 / FolderListing{path=/fileToFolder/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=fileToFolder-file.txt, id=fileToFolder-file-id}], mergeLockId=Optional.empty}
+2022-03-12 18:31:31 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 18:31:31 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000002
+2022-03-12 18:31:31 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /folderToFile/ | 00000000000000000001
+2022-03-12 18:31:31 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /fileToFolder/ | 00000000000000000002
+2022-03-12 18:32:06 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-11895794596638110625/.hdlocal/hdlocal.db
+2022-03-12 18:32:06 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-03-12 18:32:06 [SqliteLocalDb] DEBUG putFolder: main:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subfileMain.txt, id=subfileMain-id}], mergeLockId=Optional.empty}
+2022-03-12 18:32:06 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-03-12 18:32:06 [SqliteLocalDb] DEBUG putFolder: Already exists
+2022-03-12 18:32:06 [SqliteLocalDb] DEBUG putFolder: branch:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 18:32:06 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000002 / FolderListing{path=/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=folderToFile, id=folderToFile-asFile-id}, Entry{type=FOLDER, name=fileToFolder, id=}], mergeLockId=Optional.empty}
+2022-03-12 18:32:06 [SqliteLocalDb] DEBUG putFolder: branch:/fileToFolder/:00000000000000000002 / FolderListing{path=/fileToFolder/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=fileToFolder-file.txt, id=fileToFolder-file-id}], mergeLockId=Optional.empty}
+2022-03-12 18:32:06 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 18:32:06 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000002
+2022-03-12 18:32:06 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /folderToFile/ | 00000000000000000001
+2022-03-12 18:32:06 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /fileToFolder/ | 00000000000000000002
+2022-03-12 18:32:13 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-3024399119690877945/.hdlocal/hdlocal.db
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=subfolder, id=}, Entry{type=FILE, name=file1.txt, id=xxx}, Entry{type=FILE, name=onlyOnMain.txt, id=onlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG putFolder: main:/subfolder/:00000000000000000001 / FolderListing{path=/subfolder/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subfile1.txt, id=subfile1-id}, Entry{type=FILE, name=subOnlyOnMain.txt, id=subOnlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FOLDER, name=subfolder, id=}, Entry{type=FILE, name=file1.txt, id=yyy}, Entry{type=FILE, name=file2.txt, id=zzz}], mergeLockId=Optional.empty}
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG putFolder: branch:/subfolder/:00000000000000000001 / FolderListing{path=/subfolder/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subfile1.txt, id=subfile1-modified-id}, Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /subfolder/ | 00000000000000000001
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /subfolder/ | 00000000000000000001
+2022-03-12 18:32:13 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-1928955503601266012/.hdlocal/hdlocal.db
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG putFolder: main:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subfileMain.txt, id=subfileMain-id}], mergeLockId=Optional.empty}
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG putFolder: Already exists
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG putFolder: branch:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000002 / FolderListing{path=/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=folderToFile, id=folderToFile-asFile-id}, Entry{type=FOLDER, name=fileToFolder, id=}], mergeLockId=Optional.empty}
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG putFolder: branch:/fileToFolder/:00000000000000000002 / FolderListing{path=/fileToFolder/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=fileToFolder-file.txt, id=fileToFolder-file-id}], mergeLockId=Optional.empty}
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000002
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /folderToFile/ | 00000000000000000001
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /fileToFolder/ | 00000000000000000002
+2022-03-12 18:32:13 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-9519831576336013738/.hdlocal/hdlocal.db
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=subfolderMain, id=}, Entry{type=FILE, name=file1.txt, id=file1-id}, Entry{type=FILE, name=onlyOnMain.txt, id=onlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG putFolder: main:/subfolderMain/:00000000000000000001 / FolderListing{path=/subfolderMain/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnMain.txt, id=subOnlyOnMain-id}], mergeLockId=Optional.empty}
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FOLDER, name=subfolderBranch, id=}, Entry{type=FILE, name=file1.txt, id=file1-id}, Entry{type=FILE, name=onlyOnBranch.txt, id=onlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG putFolder: branch:/subfolderBranch/:00000000000000000001 / FolderListing{path=/subfolderBranch/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /subfolderMain/ | 00000000000000000001
+2022-03-12 18:32:13 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /subfolderBranch/ | 00000000000000000001
+2022-04-16 15:32:29 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-10398696157315549077/.hdlocal/hdlocal.db
+2022-04-16 15:32:29 [SqliteLocalDb] INFO New file: /tmp/hd-unit-test-10398696157315549077/somefile.txt (089d30...)
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=089d30138ea6983d215edbdbd1ed5c22badc5b86493fe0babf514e721fdb345d, contentsType=FULL, baseEntryId=null, storageType=DATASTORE}
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=cb59ce6c47c2e14418c46b6016c860f9921b685723e6766b7d099a5f2cc92d24, contentsType=DIFF_GIT, baseEntryId=089d30138ea6983d215edbdbd1ed5c22badc5b86493fe0babf514e721fdb345d, storageType=DATASTORE}
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG putFileEntry: FileEntry{id=28b2a58091e504dc8ea062334b2eb8b747a56572781aaa87daed4fbb5a594155, contentsType=DIFF_GIT, baseEntryId=cb59ce6c47c2e14418c46b6016c860f9921b685723e6766b7d099a5f2cc92d24, storageType=DATASTORE}
+2022-04-16 15:32:29 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-14529323749742131737/.hdlocal/hdlocal.db
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=subfolder, id=}, Entry{type=FILE, name=file1.txt, id=xxx}, Entry{type=FILE, name=onlyOnMain.txt, id=onlyOnMain-id}], mergeLockId=Optional.empty}
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG putFolder: main:/subfolder/:00000000000000000001 / FolderListing{path=/subfolder/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subfile1.txt, id=subfile1-id}, Entry{type=FILE, name=subOnlyOnMain.txt, id=subOnlyOnMain-id}], mergeLockId=Optional.empty}
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FOLDER, name=subfolder, id=}, Entry{type=FILE, name=file1.txt, id=yyy}, Entry{type=FILE, name=file2.txt, id=zzz}], mergeLockId=Optional.empty}
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG putFolder: branch:/subfolder/:00000000000000000001 / FolderListing{path=/subfolder/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subfile1.txt, id=subfile1-modified-id}, Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /subfolder/ | 00000000000000000001
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /subfolder/ | 00000000000000000001
+2022-04-16 15:32:29 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-9629876190377102831/.hdlocal/hdlocal.db
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG putFolder: main:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subfileMain.txt, id=subfileMain-id}], mergeLockId=Optional.empty}
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=folderToFile, id=}, Entry{type=FILE, name=fileToFolder, id=fileToFolder-id}], mergeLockId=Optional.empty}
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG putFolder: Already exists
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG putFolder: branch:/folderToFile/:00000000000000000001 / FolderListing{path=/folderToFile/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000002 / FolderListing{path=/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=folderToFile, id=folderToFile-asFile-id}, Entry{type=FOLDER, name=fileToFolder, id=}], mergeLockId=Optional.empty}
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG putFolder: branch:/fileToFolder/:00000000000000000002 / FolderListing{path=/fileToFolder/, branch=branch, commitId=2, entries=[Entry{type=FILE, name=fileToFolder-file.txt, id=fileToFolder-file-id}], mergeLockId=Optional.empty}
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000002
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /folderToFile/ | 00000000000000000001
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /fileToFolder/ | 00000000000000000002
+2022-04-16 15:32:29 [ConnectionHolder] DEBUG Opening DB file at: /tmp/hd-unit-test-11616172494705960406/.hdlocal/hdlocal.db
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG putFolder: main:/:00000000000000000001 / FolderListing{path=/, branch=main, commitId=1, entries=[Entry{type=FOLDER, name=subfolderMain, id=}, Entry{type=FILE, name=file1.txt, id=file1-id}, Entry{type=FILE, name=onlyOnMain.txt, id=onlyOnMain-id}], mergeLockId=Optional.empty}
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG putFolder: main:/subfolderMain/:00000000000000000001 / FolderListing{path=/subfolderMain/, branch=main, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnMain.txt, id=subOnlyOnMain-id}], mergeLockId=Optional.empty}
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG putFolder: branch:/:00000000000000000001 / FolderListing{path=/, branch=branch, commitId=1, entries=[Entry{type=FOLDER, name=subfolderBranch, id=}, Entry{type=FILE, name=file1.txt, id=file1-id}, Entry{type=FILE, name=onlyOnBranch.txt, id=onlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG putFolder: branch:/subfolderBranch/:00000000000000000001 / FolderListing{path=/subfolderBranch/, branch=branch, commitId=1, entries=[Entry{type=FILE, name=subOnlyOnBranch.txt, id=subOnlyOnBranch-id}], mergeLockId=Optional.empty}
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | / | 00000000000000000001
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | / | 00000000000000000001
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG TEMP: findFolderAt: main | /subfolderMain/ | 00000000000000000001
+2022-04-16 15:32:29 [SqliteLocalDb] DEBUG TEMP: findFolderAt: branch | /subfolderBranch/ | 00000000000000000001

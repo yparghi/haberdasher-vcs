@@ -1,0 +1,102 @@
+h2.diffRepoHeader {
+    margin-bottom: 1.5em;
+}
+
+div.diffFileContainer {
+    width: 100%;
+}
+
+h3.diffFileHeader {
+    margin-bottom: 1.4em;
+}
+
+div.diffHunkContainer {
+    box-sizing: border-box;
+    margin: 0 0 1em 1em;
+    padding: 0.3em 0.3em 0.3em 0.3em;
+    border: 1px solid #cccccc;
+    font-family: monospace;
+    font-size: 1.2em;
+    overflow: scroll;
+}
+
+div.diffLineContainer {
+    display: flex;
+    flex-direction: row;
+    white-space: pre;
+    margin: 0;
+    /* This makes the absolute positioning of the "+ Add comment" child work. */
+    position: relative;
+}
+
+span.diffLineNumberOld {
+    padding-left: 0.5em;
+    padding-right: 0.8em;
+}
+
+span.diffLineNumberNew {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-right: 1px solid grey;
+}
+
+span.diffTextDelete {
+    background-color: #ffb9b9;
+}
+
+span.diffTextAdd {
+    background-color: #70fa73;
+}
+
+span.diffText {
+    margin-left: 0.3em;
+    display: inline-block;
+    width: 100%;
+    white-space: pre;
+}
+
+span.addCommentOverlay {
+    position: absolute;
+    right: 0;
+    visibility: hidden;
+    background: white;
+}
+
+div.diffLineContainer:hover span.addCommentOverlay {
+    visibility: visible;
+}
+
+
+/* Review. TODO: Allow inclusion of multiple CSS files on a page, like with JS includes, in basefragments. */
+
+div#reviewComment {
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 0.8em 1em 0.8em 1em;
+    margin-left: 2em;
+    background-color: #f9f9f9;
+}
+
+#commentText {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    /* This makes width/height/layout work. Apparently the default is inline-block? */
+    display: block;
+
+    padding: 0.5em;
+    font-size: 1.2em;
+    font-family: monospace;
+}
+
+#commentText:focus {
+    outline: none !important;
+    border: 2px solid #eeeeee;
+}
+
+
+div.reviewThreadContainer {
+}
+
+div.reviewCommentContainer {
+}

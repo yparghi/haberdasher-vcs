@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+option java_package = "com.haberdashervcs.common.protobuf";
+option java_outer_classname = "UsersProto";
+option java_multiple_files = false;
+
+
+message HdUser {
+
+    enum Role {
+        AUTHOR = 0;
+        ADMIN = 1;
+        OWNER = 2;
+    }
+
+    string userId = 1;
+    string email = 2;
+    string org = 3;
+    string bcryptedPassword = 4;
+    Role role = 5;
+    HdUserPreferences preferences = 6;
+}
+
+
+message HdUserPreferences {
+    map<string, string> fields = 1;
+}
+
+
+message UserAuthToken {
+    enum Type {
+        WEB = 0;
+        CLI = 1;
+    }
+
+    enum TokenState {
+        ACTIVE = 0;
+        EXPIRED = 1;
+    }
+
+    Type type = 1;
+    string tokenSha = 2;
+    string userId = 3;
+    string org = 4;
+    int64 creationTimestamp = 5;
+    TokenState state = 6;
+}

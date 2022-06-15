@@ -1,0 +1,228 @@
+[MergerTest] INFO Creating test tables.
+[HBaseRawHelper] INFO Writing FolderListing: FolderListing{path=/some/path, commitId=100, entries=[Entry{type=FILE, name=base.txt, id=fileId_base}], mergeLockId=Optional.empty}
+[HBaseRawHelper] INFO Writing FolderListing: FolderListing{path=/some/path, commitId=101, entries=[Entry{type=FILE, name=base.txt, id=fileId_base}, Entry{type=FILE, name=newer1.txt, id=fileId_newer1}], mergeLockId=Optional[merge1]}
+[HBaseRawHelper] INFO Writing FolderListing: FolderListing{path=/some/path, commitId=101, entries=[Entry{type=FILE, name=base.txt, id=fileId_base}, Entry{type=FILE, name=newer1.txt, id=fileId_newer1}, Entry{type=FILE, name=newer2.txt, id=fileId_newer2}], mergeLockId=Optional[merge2]}
+[MergeStates] INFO Temp: got 2 merges
+[HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:branch1:
+[HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+[HBaseRawHelper] INFO Writing FolderListing: FolderListing{path=/some/path, commitId=101, entries=[Entry{type=FILE, name=base.txt, id=fileId_base}, Entry{type=FILE, name=newer1.txt, id=fileId_newer1}], mergeLockId=Optional[a4281b8a-581a-420c-b4a1-bf91a45376fc]}
+[MergeStates] INFO Temp: got 3 merges
+[HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:branch2:
+[HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+[MergeStates] INFO TEMP: comparing merge lock id's in list: [com.haberdashervcs.common.objects.MergeLock@432d4f34, com.haberdashervcs.common.objects.MergeLock@a1cd8d7c, com.haberdashervcs.common.objects.MergeLock@37dda539]
+[MergeStates] INFO TEMP: comparing merge lock id's: a4281b8a-581a-420c-b4a1-bf91a45376fc / merge1
+[MergeStates] INFO TEMP: comparing merge lock id's: a4281b8a-581a-420c-b4a1-bf91a45376fc / merge2
+[MergeStates] INFO TEMP: comparing merge lock id's: a4281b8a-581a-420c-b4a1-bf91a45376fc / a4281b8a-581a-420c-b4a1-bf91a45376fc
+[FolderHistoryLoader] DEBUG getFolderAtCommit: 101
+[MergeStates] INFO Temp: got 3 merges
+[HBaseRawHelper] DEBUG getHeadAtCommit scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+[MergeStates] INFO TEMP: comparing merge lock id's in list: [com.haberdashervcs.common.objects.MergeLock@91c30bcd, com.haberdashervcs.common.objects.MergeLock@5ea0e837, com.haberdashervcs.common.objects.MergeLock@53386245]
+[MergeStates] INFO TEMP: comparing merge lock id's: a4281b8a-581a-420c-b4a1-bf91a45376fc / merge1
+[MergeStates] INFO TEMP: comparing merge lock id's: a4281b8a-581a-420c-b4a1-bf91a45376fc / merge2
+[MergeStates] INFO TEMP: comparing merge lock id's: a4281b8a-581a-420c-b4a1-bf91a45376fc / a4281b8a-581a-420c-b4a1-bf91a45376fc
+[MergerTest] INFO Creating test tables.
+[HBaseRawHelper] INFO Writing FolderListing: FolderListing{path=/some/path, commitId=100, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}], mergeLockId=Optional.empty}
+[HBaseRawHelper] INFO Writing FolderListing: FolderListing{path=/some/path, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[some-merge-id]}
+[MergeStates] INFO Temp: got 1 merges
+[HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:test_branch:
+[HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+[HBaseRawHelper] INFO Writing FolderListing: FolderListing{path=/some/path, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[62662926-ce97-479c-a242-e3de862b44c8]}
+[FolderHistoryLoader] DEBUG getFolderAtCommit: 101
+[MergeStates] INFO Temp: got 2 merges
+[HBaseRawHelper] DEBUG getHeadAtCommit scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+[MergeStates] INFO TEMP: comparing merge lock id's in list: [com.haberdashervcs.common.objects.MergeLock@bd60f57f, com.haberdashervcs.common.objects.MergeLock@afd6d329]
+[MergeStates] INFO TEMP: comparing merge lock id's: 62662926-ce97-479c-a242-e3de862b44c8 / some-merge-id
+[MergeStates] INFO TEMP: comparing merge lock id's: 62662926-ce97-479c-a242-e3de862b44c8 / 62662926-ce97-479c-a242-e3de862b44c8
+[MergerTest] INFO Creating test tables.
+[MergerTest] INFO Creating test tables.
+[HBaseRawHelper] INFO Writing FolderListing: FolderListing{path=/some/path, commitId=100, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}], mergeLockId=Optional.empty}
+[HBaseRawHelper] INFO Writing FolderListing: FolderListing{path=/some/path, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[some-merge-id]}
+[MergeStates] INFO Temp: got 1 merges
+[HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:test_branch:
+[HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+[HBaseRawHelper] INFO Writing FolderListing: FolderListing{path=/some/path, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[b409014e-b4a9-4b78-b789-d315c9e1207d]}
+[MergeStates] INFO Temp: got 2 merges
+[HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:test_branch:
+[HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+[MergeStates] INFO TEMP: comparing merge lock id's in list: [com.haberdashervcs.common.objects.MergeLock@dff6d18b, com.haberdashervcs.common.objects.MergeLock@1aae4c1b]
+[MergeStates] INFO TEMP: comparing merge lock id's: b409014e-b4a9-4b78-b789-d315c9e1207d / some-merge-id
+[MergeStates] INFO TEMP: comparing merge lock id's: b409014e-b4a9-4b78-b789-d315c9e1207d / b409014e-b4a9-4b78-b789-d315c9e1207d
+[MergerTest] INFO Creating test tables.
+[HBaseRawHelper] INFO Writing FolderListing: FolderListing{path=/some/path, commitId=100, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}], mergeLockId=Optional.empty}
+[HBaseRawHelper] INFO Writing FolderListing: FolderListing{path=/some/path, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[some-merge-id]}
+[MergeStates] INFO Temp: got 1 merges
+[HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:test_branch:
+[HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+[HBaseRawHelper] INFO Writing FolderListing: FolderListing{path=/some/path, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[59225d40-25ac-4cab-8a45-b3913a2dff49]}
+[MergeStates] INFO Temp: got 2 merges
+[HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:test_branch:
+[HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+[MergeStates] INFO TEMP: comparing merge lock id's in list: [com.haberdashervcs.common.objects.MergeLock@4bc8e267, com.haberdashervcs.common.objects.MergeLock@64294d10]
+[MergeStates] INFO TEMP: comparing merge lock id's: 59225d40-25ac-4cab-8a45-b3913a2dff49 / some-merge-id
+[MergeStates] INFO TEMP: comparing merge lock id's: 59225d40-25ac-4cab-8a45-b3913a2dff49 / 59225d40-25ac-4cab-8a45-b3913a2dff49
+[HistogramDiffer] INFO TEMP: nextEdit: REPLACE(1-2,1-4)
+[HistogramDiffer] INFO TEMP: nextEdit: null
+[HistogramDiffer] INFO TEMP: edits: EditList[REPLACE(1-2,1-4)]
+[HistogramDiffer] INFO TEMP: nextEdit: REPLACE(1-2,1-4)
+[HistogramDiffer] INFO TEMP: nextEdit: null
+[HistogramDiffer] INFO TEMP: edits: EditList[REPLACE(1-2,1-4)]
+[HistogramDiffer] INFO TEMP: nextEdit: REPLACE(1-2,1-4)
+[HistogramDiffer] INFO TEMP: nextEdit: null
+[HistogramDiffer] INFO TEMP: edits: EditList[REPLACE(1-2,1-4)]
+[HistogramDiffer] INFO TEMP: nextEdit: REPLACE(1-2,1-4)
+[HistogramDiffer] INFO TEMP: nextEdit: null
+[HistogramDiffer] INFO TEMP: edits: EditList[REPLACE(1-2,1-4)]
+[HistogramDiffer] INFO TEMP: nextEdit: REPLACE(1-2,1-4)
+[HistogramDiffer] INFO TEMP: nextEdit: REPLACE(1-2,1-4)
+[HistogramDiffer] INFO TEMP: edits: EditList[INSERT(1-1,1-7)]
+[HistogramDiffer] INFO TEMP: nextEdit: INSERT(1-1,1-7)
+[HistogramDiffer] INFO TEMP: nextEdit: INSERT(1-1,1-7)
+[HistogramDiffer] INFO TEMP: edits: EditList[INSERT(2-2,2-3), INSERT(4-4,5-6)]
+[HistogramDiffer] INFO TEMP: nextEdit: INSERT(2-2,2-3)
+[HistogramDiffer] INFO TEMP: nextEdit: INSERT(2-2,2-3)
+[HistogramDiffer] INFO TEMP: nextEdit: INSERT(4-4,5-6)
+[HistogramDiffer] INFO TEMP: nextEdit: INSERT(4-4,5-6)
+[HistogramDiffer] INFO TEMP: nextEdit: null
+[HistogramDiffer] INFO TEMP: edits: EditList[REPLACE(1-2,1-4)]
+[HistogramDiffer] INFO TEMP: nextEdit: REPLACE(1-2,1-4)
+[HistogramDiffer] INFO TEMP: nextEdit: REPLACE(1-2,1-4)
+[HBaseMergerTest] INFO Creating test tables.
+[HBaseRawHelper] INFO Creating branch: main
+[HBaseRawHelper] INFO Creating branch: test_branch
+[HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=100, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}], mergeLockId=Optional.empty}
+[HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=test_branch, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[some-merge-id]}
+[HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:test_branch:
+[HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+[HBaseRawHelper] INFO Updating branch to: BranchEntry{name=main, baseCommitId=-1, headCommitId=101}
+[HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[1b785e8e-a249-451f-84d0-ad21cb09fe1f]}
+[HBaseRawHelper] INFO Creating branch: main
+[HBaseRawHelper] INFO Creating branch: test_branch
+[HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=100, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}], mergeLockId=Optional.empty}
+[HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=test_branch, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[some-merge-id]}
+[HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:test_branch:
+[HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+[HBaseRawHelper] INFO Updating branch to: BranchEntry{name=main, baseCommitId=-1, headCommitId=101}
+[HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[25812587-08b4-4647-9733-2a4487e01490]}
+[HBaseMerger] INFO Wrote merge commit: test_org:test_repo:main:00000000000000000101 / CommitEntry{branchName=main, commitId=101, author=Haberdasher Merge, message=Merge of branch test_branch:101, changedFiles=[]}
+[FolderHistoryLoader] DEBUG getFolderAtCommit: 101
+[HBaseRawHelper] DEBUG getHeadAtCommit scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+[HBaseRawHelper] INFO Creating branch: main
+[HBaseRawHelper] INFO Creating branch: test_branch
+[HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=100, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}], mergeLockId=Optional.empty}
+[HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=test_branch, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[some-merge-id]}
+[HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:test_branch:
+[HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+[HBaseRawHelper] INFO Updating branch to: BranchEntry{name=main, baseCommitId=-1, headCommitId=101}
+[HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[427ff975-3387-46f1-ab9c-9300286c54db]}
+[HBaseMerger] INFO Wrote merge commit: test_org:test_repo:main:00000000000000000101 / CommitEntry{branchName=main, commitId=101, author=Haberdasher Merge, message=Merge of branch test_branch:101, changedFiles=[]}
+[FolderHistoryLoader] DEBUG getFolderAtCommit: 101
+[HBaseRawHelper] DEBUG getHeadAtCommit scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+[MergeStates] DEBUG TEMP: comparing merge lock id's in list: []
+2022-04-16 15:36:48 [HBaseRawHelper] INFO Creating branch: main
+2022-04-16 15:36:49 [HBaseRawHelper] INFO Creating branch: test_branch
+2022-04-16 15:36:49 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=100, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}], mergeLockId=Optional.empty}
+2022-04-16 15:36:49 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=test_branch, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[some-merge-id]}
+2022-04-16 15:36:49 [HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:test_branch:
+2022-04-16 15:36:49 [HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:09223372036854775807 / test_org:test_repo:main:/some/path:00000000000000000100
+2022-04-16 15:36:49 [HBaseRawHelper] INFO Updating branch to: BranchEntry{name=main, baseCommitId=-1, headCommitId=101}
+2022-04-16 15:36:49 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[de08e5a3-8295-4155-bb79-1909daff2aff]}
+2022-04-16 15:36:49 [HBaseMerger] INFO Wrote merge commit: CommitEntry{branchName=main, commitId=101, author=Haberdasher Merge, message=Merge of branch test_branch:101, changedPaths=[], integration=branch: "test_branch"
+commitId: 101
+}
+2022-04-16 15:36:49 [FolderHistoryLoader] DEBUG getFolderAtCommit: 101
+2022-04-16 15:36:49 [HBaseRawHelper] DEBUG getHeadAtCommit scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+2022-04-16 15:36:49 [MergeStates] DEBUG TEMP: comparing merge lock id's in list: []
+2022-04-16 15:37:08 [HBaseRawHelper] INFO Creating branch: main
+2022-04-16 15:37:08 [HBaseRawHelper] INFO Creating branch: branch1
+2022-04-16 15:37:08 [HBaseRawHelper] INFO Creating branch: branch2
+2022-04-16 15:37:08 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=100, entries=[Entry{type=FILE, name=base.txt, id=fileId_base}], mergeLockId=Optional.empty}
+2022-04-16 15:37:08 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=branch1, commitId=101, entries=[Entry{type=FILE, name=base.txt, id=fileId_base}, Entry{type=FILE, name=newer1.txt, id=fileId_newer1}], mergeLockId=Optional[merge1]}
+2022-04-16 15:37:08 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=branch2, commitId=101, entries=[Entry{type=FILE, name=base.txt, id=fileId_base}, Entry{type=FILE, name=newer1.txt, id=fileId_newer1}, Entry{type=FILE, name=newer2.txt, id=fileId_newer2}], mergeLockId=Optional[merge2]}
+2022-04-16 15:37:08 [HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:branch1:
+2022-04-16 15:37:08 [HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:09223372036854775807 / test_org:test_repo:main:/some/path:00000000000000000100
+2022-04-16 15:37:08 [HBaseRawHelper] INFO Updating branch to: BranchEntry{name=main, baseCommitId=-1, headCommitId=101}
+2022-04-16 15:37:08 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=101, entries=[Entry{type=FILE, name=base.txt, id=fileId_base}, Entry{type=FILE, name=newer1.txt, id=fileId_newer1}], mergeLockId=Optional[a3264455-8ec9-438b-b38f-a593ec218167]}
+2022-04-16 15:37:08 [HBaseMerger] INFO Wrote merge commit: CommitEntry{branchName=main, commitId=101, author=Haberdasher Merge, message=Merge of branch branch1:101, changedPaths=[], integration=branch: "branch1"
+commitId: 101
+}
+2022-04-16 15:37:08 [HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:branch2:
+2022-04-16 15:37:08 [HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:09223372036854775807 / test_org:test_repo:main:/some/path:00000000000000000100
+2022-04-16 15:37:08 [MergeStates] DEBUG TEMP: comparing merge lock id's in list: [com.haberdashervcs.common.objects.MergeLock@e017582d, com.haberdashervcs.common.objects.MergeLock@113e3ab7, com.haberdashervcs.common.objects.MergeLock@5fe92ad4]
+2022-04-16 15:37:08 [FolderHistoryLoader] DEBUG getFolderAtCommit: 101
+2022-04-16 15:37:08 [HBaseRawHelper] DEBUG getHeadAtCommit scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+2022-04-16 15:37:08 [MergeStates] DEBUG TEMP: comparing merge lock id's in list: []
+2022-04-16 15:37:18 [HBaseRawHelper] INFO Creating branch: main
+2022-04-16 15:37:18 [HBaseRawHelper] INFO Creating branch: test_branch
+2022-04-16 15:37:18 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=100, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}], mergeLockId=Optional.empty}
+2022-04-16 15:37:18 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=test_branch, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[some-merge-id]}
+2022-04-16 15:37:18 [HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:test_branch:
+2022-04-16 15:37:18 [HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:09223372036854775807 / test_org:test_repo:main:/some/path:00000000000000000100
+2022-04-16 15:37:18 [HBaseRawHelper] INFO Updating branch to: BranchEntry{name=main, baseCommitId=-1, headCommitId=101}
+2022-04-16 15:37:18 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[aad90bdd-1907-4b22-98d9-f8d6aed3f3a2]}
+2022-04-16 15:37:18 [HBaseMerger] INFO Wrote merge commit: CommitEntry{branchName=main, commitId=101, author=Haberdasher Merge, message=Merge of branch test_branch:101, changedPaths=[], integration=branch: "test_branch"
+commitId: 101
+}
+2022-04-16 15:37:18 [FolderHistoryLoader] DEBUG getFolderAtCommit: 101
+2022-04-16 15:37:18 [HBaseRawHelper] DEBUG getHeadAtCommit scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+2022-04-16 15:37:18 [MergeStates] DEBUG TEMP: comparing merge lock id's in list: []
+2022-04-16 15:37:28 [HBaseRawHelper] INFO Creating branch: main
+2022-04-16 15:37:28 [HBaseRawHelper] INFO Creating branch: test_branch
+2022-04-16 15:37:28 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=100, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}], mergeLockId=Optional.empty}
+2022-04-16 15:37:28 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=test_branch, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[some-merge-id]}
+2022-04-16 15:37:28 [HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:test_branch:
+2022-04-16 15:37:28 [HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:09223372036854775807 / test_org:test_repo:main:/some/path:00000000000000000100
+2022-04-16 15:37:28 [HBaseRawHelper] INFO Updating branch to: BranchEntry{name=main, baseCommitId=-1, headCommitId=101}
+2022-04-16 15:37:28 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[470d73d4-0101-44b8-a421-a621eb676938]}
+2022-04-16 15:37:28 [HBaseMerger] INFO Wrote merge commit: CommitEntry{branchName=main, commitId=101, author=Haberdasher Merge, message=Merge of branch test_branch:101, changedPaths=[], integration=branch: "test_branch"
+commitId: 101
+}
+2022-04-16 15:37:28 [HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:test_branch:
+2022-04-16 15:37:28 [HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:09223372036854775807 / test_org:test_repo:main:/some/path:00000000000000000100
+2022-04-16 15:37:28 [MergeStates] DEBUG TEMP: comparing merge lock id's in list: [com.haberdashervcs.common.objects.MergeLock@b8d57a01, com.haberdashervcs.common.objects.MergeLock@477081e1]
+2022-04-16 15:37:56 [HBaseRawHelper] INFO Creating branch: main
+2022-04-16 15:37:56 [HBaseRawHelper] INFO Creating branch: branch1
+2022-04-16 15:37:56 [HBaseRawHelper] INFO Creating branch: branch2
+2022-04-16 15:37:56 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=100, entries=[Entry{type=FILE, name=base.txt, id=fileId_base}], mergeLockId=Optional.empty}
+2022-04-16 15:37:56 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=branch1, commitId=101, entries=[Entry{type=FILE, name=base.txt, id=fileId_base}, Entry{type=FILE, name=newer1.txt, id=fileId_newer1}], mergeLockId=Optional[merge1]}
+2022-04-16 15:37:56 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=branch2, commitId=101, entries=[Entry{type=FILE, name=base.txt, id=fileId_base}, Entry{type=FILE, name=newer1.txt, id=fileId_newer1}, Entry{type=FILE, name=newer2.txt, id=fileId_newer2}], mergeLockId=Optional[merge2]}
+2022-04-16 15:37:56 [HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:branch1:
+2022-04-16 15:37:56 [HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:09223372036854775807 / test_org:test_repo:main:/some/path:00000000000000000100
+2022-04-16 15:37:56 [HBaseRawHelper] INFO Updating branch to: BranchEntry{name=main, baseCommitId=-1, headCommitId=101}
+2022-04-16 15:37:56 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=101, entries=[Entry{type=FILE, name=base.txt, id=fileId_base}, Entry{type=FILE, name=newer1.txt, id=fileId_newer1}], mergeLockId=Optional[4158dce1-7e4f-4579-8be7-704eeb84da27]}
+2022-04-16 15:37:56 [HBaseMerger] INFO Wrote merge commit: CommitEntry{branchName=main, commitId=101, author=Haberdasher Merge, message=Merge of branch branch1:101, changedPaths=[], integration=branch: "branch1"
+commitId: 101
+}
+2022-04-16 15:37:56 [HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:branch2:
+2022-04-16 15:37:56 [HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:09223372036854775807 / test_org:test_repo:main:/some/path:00000000000000000100
+2022-04-16 15:37:56 [MergeStates] DEBUG TEMP: comparing merge lock id's in list: [com.haberdashervcs.common.objects.MergeLock@8e2fe4e, com.haberdashervcs.common.objects.MergeLock@c9b0664d, com.haberdashervcs.common.objects.MergeLock@bad02153]
+2022-04-16 15:37:56 [FolderHistoryLoader] DEBUG getFolderAtCommit: 101
+2022-04-16 15:37:56 [HBaseRawHelper] DEBUG getHeadAtCommit scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+2022-04-16 15:37:56 [MergeStates] DEBUG TEMP: comparing merge lock id's in list: []
+2022-04-16 15:38:05 [HBaseRawHelper] INFO Creating branch: main
+2022-04-16 15:38:05 [HBaseRawHelper] INFO Creating branch: test_branch
+2022-04-16 15:38:05 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=100, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}], mergeLockId=Optional.empty}
+2022-04-16 15:38:05 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=test_branch, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[some-merge-id]}
+2022-04-16 15:38:05 [HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:test_branch:
+2022-04-16 15:38:05 [HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:09223372036854775807 / test_org:test_repo:main:/some/path:00000000000000000100
+2022-04-16 15:38:05 [HBaseRawHelper] INFO Updating branch to: BranchEntry{name=main, baseCommitId=-1, headCommitId=101}
+2022-04-16 15:38:05 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[85750f2b-140d-448f-85b5-537aa590a6cb]}
+2022-04-16 15:38:05 [HBaseMerger] INFO Wrote merge commit: CommitEntry{branchName=main, commitId=101, author=Haberdasher Merge, message=Merge of branch test_branch:101, changedPaths=[], integration=branch: "test_branch"
+commitId: 101
+}
+2022-04-16 15:38:05 [FolderHistoryLoader] DEBUG getFolderAtCommit: 101
+2022-04-16 15:38:05 [HBaseRawHelper] DEBUG getHeadAtCommit scan: start / stop: test_org:test_repo:main:/some/path:00000000000000000101 / test_org:test_repo:main:/some/path:00000000000000000000
+2022-04-16 15:38:05 [MergeStates] DEBUG TEMP: comparing merge lock id's in list: []
+2022-04-16 15:38:15 [HBaseRawHelper] INFO Creating branch: main
+2022-04-16 15:38:15 [HBaseRawHelper] INFO Creating branch: test_branch
+2022-04-16 15:38:15 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=100, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}], mergeLockId=Optional.empty}
+2022-04-16 15:38:15 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=test_branch, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[some-merge-id]}
+2022-04-16 15:38:15 [HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:test_branch:
+2022-04-16 15:38:15 [HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:09223372036854775807 / test_org:test_repo:main:/some/path:00000000000000000100
+2022-04-16 15:38:15 [HBaseRawHelper] INFO Updating branch to: BranchEntry{name=main, baseCommitId=-1, headCommitId=101}
+2022-04-16 15:38:15 [HBaseRawHelper] DEBUG putFolder: Writing FolderListing: FolderListing{path=/some/path, branch=main, commitId=101, entries=[Entry{type=FILE, name=older.txt, id=fileId_older}, Entry{type=FILE, name=newer.txt, id=fileId_newer}], mergeLockId=Optional[b655ef44-3c9d-4797-bf6c-65d4220c79da]}
+2022-04-16 15:38:15 [HBaseMerger] INFO Wrote merge commit: CommitEntry{branchName=main, commitId=101, author=Haberdasher Merge, message=Merge of branch test_branch:101, changedPaths=[], integration=branch: "test_branch"
+commitId: 101
+}
+2022-04-16 15:38:15 [HBaseRawHelper] DEBUG All branch history prefix: test_org:test_repo:test_branch:
+2022-04-16 15:38:15 [HBaseRawHelper] DEBUG History scan: start / stop: test_org:test_repo:main:/some/path:09223372036854775807 / test_org:test_repo:main:/some/path:00000000000000000100
+2022-04-16 15:38:15 [MergeStates] DEBUG TEMP: comparing merge lock id's in list: [com.haberdashervcs.common.objects.MergeLock@f81ba12e, com.haberdashervcs.common.objects.MergeLock@23913580]

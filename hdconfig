@@ -1,0 +1,16 @@
+---
+
+ignoredPaths:
+- '/.idea/'
+- '*/hd.log'
+- '/client/target/'
+- '/common/target/'
+- '/hbase-test-server/target/'
+- '/server/target/'
+- '/client/build_release/linux/build_out/'
+- '/client/build_release/mac/build_out/'
+- '/client/build_release/windows/build_out/'
+- '/client/build_release/linux/jre_out/'
+- '/client/build_release/mac/jre_out/'
+- '/client/build_release/windows/jre_out/'
+

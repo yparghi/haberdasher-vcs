@@ -1,0 +1,43 @@
+div.branchSection {
+    width: 100%;
+    padding: 1.0em 2.0em 1.0em 2.0em;
+    margin-bottom: 1.5em;
+
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+
+h3.homeHeader {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+div.welcomeMessage {
+    margin: 2em 0 2em 0;
+}
+
+div.branchSection a {
+    text-decoration: none;
+    color: #23267a;
+}
+
+p.branchSummary {
+    margin: 0.2em auto 0.2em 0;
+}
+
+span.branchEntryLinks{
+    margin: 0.2em auto 0.2em 0;
+}
+
+span.textCode {
+    white-space: pre;
+    font-family: monospace;
+    margin: 0;
+    padding: 0.2em;
+    font-size: 1.1em;
+    background: #eeeeee;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+}

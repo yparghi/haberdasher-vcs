@@ -1,0 +1,54 @@
+div#mainDocDiv {
+    padding: 0 2em 2em 2em;
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+    font-size: 1.1em;
+}
+
+div#mainDocDiv a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.docH1, .docH2 {
+    margin-top: 1.2em;
+}
+
+.docH3 {
+    margin-top: 1.1em;
+}
+
+span.textItalics {
+    font-style: italic;
+}
+
+span.textCode {
+    white-space: pre;
+    font-family: monospace;
+    margin: 4px;
+    padding: 0.2em;
+    font-size: 1.1em;
+    background: #eeeeee;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+}
+
+pre.codeBlock {
+    white-space: pre-wrap;
+
+    max-width: 700px;
+
+    font-family: monospace;
+    font-size: 1.2em;
+    font-weight: bold;
+
+    color: white;
+    background-color: #505050;
+
+    margin: auto;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+p.regular {
+}

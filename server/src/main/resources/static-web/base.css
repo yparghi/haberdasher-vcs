@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+@font-face {
+    font-family: "Book Antiqua";
+    src: url("/static/bkant.ttf");
+}
+
+:root {
+    --light-bg-color: #ffffff;
+    --light-bg-text-color: #121212;
+    --dark-bg-color: #4f355f;
+    --dark-bg-text-color: white;
+    --buttonLink-background-color: #2550c4;
+    --buttonLink-text-color: white;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: var(--light-bg-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--buttonLink-background-color);
+}
+
+div#mainContainer {
+    font-family: 'Poppins', sans-serif;
+
+    /* This is my hack for removing the whitespace gaps between top-level divs, which I don't understand. */
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Alerts */
+
+p.alert {
+    font-style: italic;
+    padding-left: 1em;
+    height: 2em;
+    line-height: 2em;
+}
+
+p.errorAlert {
+    background-color: #ffb8b8;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+
+p.successAlert {
+    background-color: #96ffa1;
+    border: 1px solid green;
+    border-radius: 4px;
+}
+
+
+/* VCS Content */
+
+div#vcsContentDiv {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* Nav bar */
+
+div#topNavBar {
+    background-color: var(--light-bg-color);
+    color: var(--light-bg-text-color);
+    height: 2em;
+    font-weight: bold;
+    white-space: nowrap;
+
+    width: 100%;
+    max-width: 1000px;
+    margin: 2.0em auto 2.0em auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div#topNavBar a {
+    color: inherit;
+}
+
+
+span#topBarLeft {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+span#topBarCenter {
+    font-family: "Book Antiqua", serif;
+    font-size: 1.8em;
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span#topBarRight {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+span#topBarLeft a {
+    margin: auto 1.0em auto 1.0em;
+    font-size: 1.1em;
+}
+
+span#topBarRight a {
+    margin: auto 1.0em auto 1.0em;
+    font-size: 1.1em;
+}
+
+span#topBarCenter a {
+    margin: auto 0.5em auto 0.5em;
+    font-size: 1.1em;
+}
+
+a#navBarTopLink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+span#navBarCenterTitle {
+    margin-left: 0.4em;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    div#topNavBar {
+        margin: 0.1em 0.0em 0.1em 0.0em;
+    }
+
+    span#topBarRight {
+        font-size: 1em;
+    }
+
+    span#topBarLeft a {
+        margin: auto 0.5em auto 0.5em;
+    }
+
+    span#topBarRight a {
+        margin: auto 0.5em auto 0.5em;
+    }
+
+    span#navBarCenterTitle {
+        display: none;
+    }
+}
+
+
+/* Elements */
+
+div.buttonLinkDiv {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+div.buttonLinkDivLeft {
+    margin-left: 0;
+}
+
+.buttonLink {
+    background-color: var(--buttonLink-background-color);
+    color: var(--buttonLink-text-color);
+    padding: 0.5em;
+    border-radius: 4px;
+
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+a.buttonLink {
+    display: table;
+    margin: auto;
+    min-width: 250px;
+}
+
+a.buttonLinkLeft {
+    margin-left: 0;
+}
+
+input.buttonLink {
+    border: 0;
+    box-shadow: none;
+}
+
+
+/* Footer */
+
+div#footer {
+    background-color: var(--dark-bg-color);
+    color: var(--dark-bg-text-color);
+    font-size: 1.0em;
+    font-weight: bold;
+
+    margin: 0;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+div#footerLogoDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+span#footerLogoText {
+    font-family: "Book Antiqua", serif;
+    font-size: 1.2em;
+    margin-left: 0.6em;
+}
+
+a.footerLink {
+    color: var(--dark-bg-text-color);
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+span#footerCopyright {
+    margin-top: 0.8em;
+}

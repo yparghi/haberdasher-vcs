@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+option java_package = "com.haberdashervcs.common.protobuf";
+option java_outer_classname = "TasksProto";
+option java_multiple_files = false;
+
+
+message ResetPasswordTask {
+    enum State {
+        NEW = 0;
+        COMPLETED = 1;
+    }
+    string resetToken = 1;
+    string userId = 2;
+    State state = 3;
+}
+
+
+message SignupTask {
+
+    enum State {
+        NEW = 0;
+        COMPLETED = 1;
+    }
+
+    enum Type {
+        NEW_REPO = 0;
+        INVITED_AUTHOR = 1;
+    }
+
+    State state = 1;
+    string email = 2;
+    string repoName = 3;
+    string bcryptedPassword = 4;
+    int64 creationTimestamp = 5;
+    string taskToken = 6;
+    Type type = 7;
+    string org = 8;
+    // Accompanying signup info, like whether they opted into product announcements.
+    map<string, string> metadata = 9;
+}
