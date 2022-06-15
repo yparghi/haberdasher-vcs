@@ -3,7 +3,7 @@
 set -e
 set -u
 
-GIT_OUT_REPO="${1:-~/src/haberdasher-git}"
+GIT_OUT_REPO="${1:-$HOME/src/haberdasher-git}"
 
 rsync --archive --progress --delete-excluded \
     ~/src/haberdasher-hd/* \

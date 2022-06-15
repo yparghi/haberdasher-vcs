@@ -1,15 +1,29 @@
 # Haberdasher
 
-Haberdasher is a version control system for large repos, designed for deep customizability: custom datastore, custom hooks and workflows, custom network protocols, etc.
+[www.haberdashervcs.com](https://www.haberdashervcs.com)
+
+Haberdasher is a version control system for huge repos, bringing a Git-like workflow (local branches and commits, simple pushing and pulling) to large-scale codebases: millions of folders, millions of commits, and files up to 1GB.
 
 
-## State of the project
+## Usage
 
-_Pre-alpha._
+For a full walkthrough, see the [Getting Started docs](https://www.haberdashervcs.com/docs). But here's the gist:
 
-The server and client run, but only with very basic operations that have undergone only basic testing. At this point, you can (and should) only use it with a local test HBase server.
+```
+$ hd init vcs.haberdashervcs.com <repo name> <CLI token from the website>
+$ cd <repo name>
 
-Also, the data model is still in progress so the database schema and row key format etc. could still change at any time.
+$ hd checkout /
+$ hd status
+$ hd branch create <name of your branch>
+
+$ <make changes>
+$ hd diff
+$ hd commit <message>
+$ hd push
+
+$ hd merge
+```
 
 
 ## License
@@ -25,7 +39,7 @@ In other words, you are free to self-host Haberdasher for your own internal use.
 >
 > &mdash; <cite>Sideshow Bob</cite>
 
-Hosting on GitHub is temporary while we set up the Haberdasher website.
+We export the code here to GitHub as a mirror and a convenience.
 
 
 ## Contact
@@ -34,5 +48,5 @@ Hosting on GitHub is temporary while we set up the Haberdasher website.
 - [Twitter](https://twitter.com/haberdashervcs)
 - [haberdasher-discuss](https://groups.google.com/g/haberdasher-discuss) Google group for the latest news and discussion
 
-Questions? Interested in alpha testing? Email us at **hello@haberdashervcs.com**
+Questions? Thoughts? Email us at **hello@haberdashervcs.com**
 
